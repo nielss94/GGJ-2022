@@ -61,13 +61,18 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerPickUp.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu/ClickToStart.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/dev/GGJ2022/Assets/Scenes/Chris/Chris2.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/898AF1AF-8CCF-490A-906C-218E1E74B230/91/60f8aa68/Random.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/dev/GGJ2022/Assets/Scripts/Player.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptedEvents/TriggerEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DarthFader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock://C:/dev/GGJ2022/Assets/Scripts/AudioManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/95F13B52-8E48-4EBD-BA8E-37E942F4ABB2/27/b7567323/AudioSource.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptedEvents/AudioEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerLampCollider.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CatAggro.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerSteps.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/dev/GGJ2022/Assets/Prefabs/Player.prefab" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/dev/GGJ2022/Assets/Scenes/Niels.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu/HoverSound.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock://C:/dev/GGJ2022/Assets/Prefabs/EndDoor.prefab" root0="SKIP_HIGHLIGHTING" />
@@ -98,7 +103,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptedEvents/TriggerEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptedEvents/ScriptedEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptedEvents/SpawnObjEvent.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/EndDoor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptedEvents/Room.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/HoverSound.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/ClickToStart.cs" />
@@ -109,7 +113,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/AudioManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Easy Character Movement/Scripts/Controllers/BaseFirstPersonController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CatAudio.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EndDoor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DarthFader.cs" />
       </list>
     </option>
   </component>
@@ -162,7 +168,7 @@
       <option name="presentableId" value="Default" />
       <updated>1643410226164</updated>
       <workItem from="1643410230578" duration="15672000" />
-      <workItem from="1643452451699" duration="29825000" />
+      <workItem from="1643452451699" duration="30659000" />
     </task>
     <task id="LOCAL-00001" summary="more">
       <created>1643419940411</created>
@@ -204,10 +210,10 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="598" y="341" key="MultipleFileMergeDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1643476437193" />
-    <state x="788" y="290" key="RollbackChangesDialog" timestamp="1643428475706">
+    <state x="788" y="290" key="RollbackChangesDialog" timestamp="1643487049462">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="788" y="290" key="RollbackChangesDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1643428475706" />
+    <state x="788" y="290" key="RollbackChangesDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1643487049462" />
     <state x="461" y="224" key="SettingsEditor" timestamp="1643410267284">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
