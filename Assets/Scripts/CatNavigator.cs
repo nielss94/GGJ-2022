@@ -14,14 +14,13 @@ public class CatNavigator : MonoBehaviour {
     [SerializeField] private NavMethod currentNavMethod;
     [SerializeField] private List<NavTarget> patrolTargets;
     [SerializeField] private NavTarget stationaryTarget;
-    [SerializeField] private float chaseEnergySeconds;
 
     private NavMeshAgent navAgent;
     private Queue<NavTarget> patrolTargetQueue;
     private NavMethod initialNavMethod;
-    private GameObject playerTarget; // Implement player here
+    private Player playerTarget;
     private GameObject currentTarget;
-    private float remainingChaseEnergySec;
+    private CatAggro catAggro;
 
     private void Awake() {
         this.navAgent = GetComponent<NavMeshAgent>();
@@ -30,6 +29,14 @@ public class CatNavigator : MonoBehaviour {
         patrolTargetQueue = new Queue<NavTarget>();
         foreach (var navTarget in patrolTargets) {
             patrolTargetQueue.Enqueue(navTarget);
+        }
+
+        playerTarget = FindObjectOfType<Player>();
+
+        if (TryGetComponent(out CatAggro aggro)) {
+            this.catAggro = aggro;
+            catAggro.onChaseStarted += ActivateChase;
+            catAggro.onChaseEnded += EndChase;
         }
         
         StartCoroutine(NavigateNext());
@@ -61,13 +68,7 @@ public class CatNavigator : MonoBehaviour {
 
     public IEnumerator ChaseRoutine() {
         while (currentNavMethod == NavMethod.Chase) {
-            remainingChaseEnergySec -= Time.deltaTime;
-
             navAgent.SetDestination(playerTarget.transform.position);
-            
-            if (remainingChaseEnergySec <= 0) {
-                currentNavMethod = initialNavMethod;
-            }
             
             yield return null;
         }
@@ -75,18 +76,27 @@ public class CatNavigator : MonoBehaviour {
         yield return null;
     }
 
-    public void ActivateChase(GameObject player) { // Change parameter?
-        remainingChaseEnergySec = chaseEnergySeconds;
+    public void ActivateChase() {
+        if (currentNavMethod == NavMethod.Chase) return;
         currentNavMethod = NavMethod.Chase;
+        StartCoroutine(NavigateNext());
+    }
+
+    private void EndChase() {
+        currentNavMethod = initialNavMethod;
         StartCoroutine(NavigateNext());
     }
 
     private void OnTriggerEnter(Collider other) {
         if (other.TryGetComponent(out NavTarget target)) {
-            Debug.Log(target.name.Equals(currentTarget.name));
             if (target.name.Equals(currentTarget.name)) {
                 StartCoroutine(NavigateNext(target.WaitTime));
             }
         }
+    }
+
+    private void OnDisable() {
+        catAggro.onChaseStarted -= ActivateChase;
+        catAggro.onChaseEnded -= EndChase;
     }
 }
