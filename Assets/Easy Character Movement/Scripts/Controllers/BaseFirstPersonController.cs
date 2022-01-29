@@ -209,7 +209,7 @@ namespace ECM.Controllers
                 z = Input.GetAxisRaw("Vertical")
             };
 
-            run = Input.GetButton("Run") && GetComponent<PlayerStamina>().stamina < 100 && !GetComponent<PlayerStamina>().onCooldown;
+            run = (Input.GetButton("Run") || Input.GetAxisRaw("Run") != 0) && GetComponent<PlayerStamina>().stamina < 100 && !GetComponent<PlayerStamina>().onCooldown;
 
             // jump = Input.GetButton("Jump");
 
