@@ -91,6 +91,7 @@
           <e p="IPickUp.cs" t="Include" />
           <e p="Menu" t="Include">
             <e p="ClickToStart.cs" t="Include" />
+            <e p="HoverSound.cs" t="Include" />
           </e>
           <e p="NavTarget.cs" t="Include" />
           <e p="Player.cs" t="Include" />
@@ -101,6 +102,7 @@
           <e p="PlayerStamina.cs" t="Include" />
           <e p="PlayerSteps.cs" t="Include" />
           <e p="ScriptedEvents" t="Include">
+            <e p="AudioEvent.cs" t="Include" />
             <e p="MovePosEvent.cs" t="Include" />
             <e p="MoveToObjEvent.cs" t="Include" />
             <e p="Room.cs" t="Include" />
