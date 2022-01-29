@@ -10,6 +10,8 @@ public class EndDoor : MonoBehaviour, IPickUp
     public DoorGem doorGem;
     private AudioManager _audioManager;
 
+    private bool doorOpened = false;
+    
     private void Awake()
     {
         _audioManager = FindObjectOfType<AudioManager>();
@@ -17,7 +19,10 @@ public class EndDoor : MonoBehaviour, IPickUp
 
     public void PlaceGems(int amount)
     {
-        StartCoroutine(PlaceGemsWithInterval(amount, 1));
+        if (!doorOpened)
+        {
+            StartCoroutine(PlaceGemsWithInterval(amount, 1));
+        }
     }
 
     IEnumerator PlaceGemsWithInterval(int amount, float interval)
@@ -48,6 +53,7 @@ public class EndDoor : MonoBehaviour, IPickUp
 
     void OpenDoor()
     {
+        doorOpened = true;
         Debug.Log("Door is opening");
     }
 
