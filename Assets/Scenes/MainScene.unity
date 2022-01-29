@@ -123,26 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &41483292 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4547779508034552074, guid: a0adab9744a618d4f9b3a6bb6549a7f5,
-    type: 3}
-  m_PrefabInstance: {fileID: 735878560}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &41483303
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 41483292}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 63c6afbb59be7c641941a33639f5f858, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hover: {fileID: 0}
-  gems: 0
 --- !u!1 &75685443
 GameObject:
   m_ObjectHideFlags: 0
@@ -877,27 +857,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 6058955779811254689, guid: a0adab9744a618d4f9b3a6bb6549a7f5,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.417
-      objectReference: {fileID: 0}
-    - target: {fileID: 6058955779811254689, guid: a0adab9744a618d4f9b3a6bb6549a7f5,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 1.073
-      objectReference: {fileID: 0}
-    - target: {fileID: 6058955779811254689, guid: a0adab9744a618d4f9b3a6bb6549a7f5,
-        type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7089721819001764509, guid: a0adab9744a618d4f9b3a6bb6549a7f5,
-        type: 3}
-      propertyPath: playerLamp
-      value: 
-      objectReference: {fileID: 921905625268019126, guid: 24eb3f7a9d6d91e4db5d7b86cc1059ee,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a0adab9744a618d4f9b3a6bb6549a7f5, type: 3}
 --- !u!1 &1750109435
