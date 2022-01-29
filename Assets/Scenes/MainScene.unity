@@ -795,57 +795,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 41483300, guid: a0adab9744a618d4f9b3a6bb6549a7f5, type: 3}
-      propertyPath: staminaPerSecond
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 41483300, guid: a0adab9744a618d4f9b3a6bb6549a7f5, type: 3}
-      propertyPath: regenStaminaPerSeconds
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 41483300, guid: a0adab9744a618d4f9b3a6bb6549a7f5, type: 3}
-      propertyPath: regenStaminaAfterSeconds
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 41483300, guid: a0adab9744a618d4f9b3a6bb6549a7f5, type: 3}
-      propertyPath: staminaStages.Array.data[0].audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: bccec2ec95df33247b6b2386b77c4864, type: 3}
-    - target: {fileID: 41483300, guid: a0adab9744a618d4f9b3a6bb6549a7f5, type: 3}
-      propertyPath: staminaStages.Array.data[1].audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: e9897b3709e20af458bac5a7350ceeec, type: 3}
-    - target: {fileID: 41483300, guid: a0adab9744a618d4f9b3a6bb6549a7f5, type: 3}
-      propertyPath: staminaStages.Array.data[2].audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: 7091e9aad214bdd4f9859d6737b3a6ad, type: 3}
-    - target: {fileID: 41483300, guid: a0adab9744a618d4f9b3a6bb6549a7f5, type: 3}
-      propertyPath: staminaStages.Array.data[3].audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: 7d7c7b51cc3169f43a90a76a5ecf62a9, type: 3}
-    - target: {fileID: 41483300, guid: a0adab9744a618d4f9b3a6bb6549a7f5, type: 3}
-      propertyPath: staminaStages.Array.data[1].staminaLevel
-      value: 25
-      objectReference: {fileID: 0}
-    - target: {fileID: 41483300, guid: a0adab9744a618d4f9b3a6bb6549a7f5, type: 3}
-      propertyPath: staminaStages.Array.data[2].staminaLevel
-      value: 75
-      objectReference: {fileID: 0}
-    - target: {fileID: 4506664732293665812, guid: a0adab9744a618d4f9b3a6bb6549a7f5,
-        type: 3}
-      propertyPath: _speed
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 4506664732293665812, guid: a0adab9744a618d4f9b3a6bb6549a7f5,
-        type: 3}
-      propertyPath: _standingHeight
-      value: 1.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 4506664732293665812, guid: a0adab9744a618d4f9b3a6bb6549a7f5,
-        type: 3}
-      propertyPath: _runSpeedMultiplier
-      value: 1.75
-      objectReference: {fileID: 0}
     - target: {fileID: 4544411343771637754, guid: a0adab9744a618d4f9b3a6bb6549a7f5,
         type: 3}
       propertyPath: m_RootOrder
