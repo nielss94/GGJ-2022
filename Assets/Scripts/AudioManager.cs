@@ -1,18 +1,17 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Object = UnityEngine.Object;
 
 public class AudioManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public AudioClipPlayer audioClipPlayer = null;
 
-    // Update is called once per frame
-    void Update()
+    public void PlayOneShot(AudioClip clip, Vector3 pos = default)
     {
-        
+        AudioClipPlayer newAudioClipPlayer = Instantiate(audioClipPlayer, pos, Quaternion.identity);
+
+        newAudioClipPlayer.PlayOneShot(clip);
     }
 }
