@@ -852,9 +852,12 @@ namespace ECM.Controllers
                 z = Input.GetAxisRaw("Vertical")
             };
 
-            jump = Input.GetButton("Jump");
+            // jump = Input.GetButton("Jump");
 
-            crouch = Input.GetKey(KeyCode.C);
+            if (Input.GetButtonDown("Crouch"))
+            {
+                crouch = !crouch;
+            }
         }
 
         #endregion

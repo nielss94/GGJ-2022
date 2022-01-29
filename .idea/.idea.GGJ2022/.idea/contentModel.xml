@@ -40,7 +40,15 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="AudioClipPlayer.cs" t="Include" />
           <e p="AudioManager.cs" t="Include" />
+          <e p="Gem.cs" t="Include" />
+          <e p="IPickUp.cs" t="Include" />
+          <e p="Player.cs" t="Include" />
+          <e p="PlayerInventory.cs" t="Include" />
+          <e p="PlayerLamp.cs" t="Include" />
+          <e p="PlayerLampCollider.cs" t="Include" />
+          <e p="PlayerPickUp.cs" t="Include" />
           <e p="PlayerStamina.cs" t="Include" />
         </e>
         <e p="TutorialInfo" t="Include">

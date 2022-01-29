@@ -1,4 +1,4 @@
-using System;
+    using System;
 using System.Collections;
 using System.Collections.Generic;
 using ECM.Components;
@@ -10,6 +10,8 @@ public class PlayerStamina : MonoBehaviour
 {
     public int maxStamina = 100;
     public float stamina = 0;
+
+    private bool stopped;
 
     public int staminaPerSecond;
     public int regenStaminaAfterSeconds;
@@ -46,8 +48,9 @@ public class PlayerStamina : MonoBehaviour
             stamina = Mathf.Clamp(stamina -= Time.deltaTime * regenStaminaPerSeconds, 0, maxStamina);
         }
 
-        if (_baseFirstPersonController.run)
+        if (_baseFirstPersonController.run && stamina < 100)
         {
+            stopped = false;
             stamina = Mathf.Clamp(stamina += Time.deltaTime * staminaPerSecond, 0, maxStamina);
 
             for (int i = staminaStages.Count - 1; i >= 0; i--)
@@ -66,9 +69,10 @@ public class PlayerStamina : MonoBehaviour
             }
         }
         
-        if (stamina >= 100 || Input.GetButtonUp("Run"))
+        if (stamina >= 100 && !stopped || Input.GetButtonUp("Run"))
         {
             lastStopRun = Time.time;
+            stopped = true;
             SetStaminaStage(null);
         }
     }
