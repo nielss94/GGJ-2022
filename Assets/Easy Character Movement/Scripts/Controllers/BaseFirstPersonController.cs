@@ -201,7 +201,14 @@ namespace ECM.Controllers
                 pause = !pause;
 
             // Player input
-
+            if (FindObjectOfType<Player>().dead)
+            {
+                run = false;
+                crouch = false;
+                moveDirection = Vector3.zero;
+                return;
+            }
+            
             moveDirection = new Vector3
             {
                 x = Input.GetAxisRaw("Horizontal"),

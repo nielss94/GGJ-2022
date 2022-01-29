@@ -84,6 +84,7 @@
           <e p="AudioClipPlayer.cs" t="Include" />
           <e p="AudioManager.cs" t="Include" />
           <e p="CatAggro.cs" t="Include" />
+          <e p="CatAudio.cs" t="Include" />
           <e p="CatNavigator.cs" t="Include" />
           <e p="DoorGem.cs" t="Include" />
           <e p="EndDoor.cs" t="Include" />
