@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 4246.08, g: 2813.3945, b: 2349.1484, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -314,21 +314,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3385633914449841497, guid: 6e0223ca4fc41554f81ac56e3c39053b,
-        type: 3}
-      propertyPath: chaseEnergySeconds
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3385633914449841497, guid: 6e0223ca4fc41554f81ac56e3c39053b,
-        type: 3}
-      propertyPath: chaseCooldownSeconds
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3594791645639771393, guid: 6e0223ca4fc41554f81ac56e3c39053b,
-        type: 3}
-      propertyPath: patrolTargets.Array.size
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 3594791645639771393, guid: 6e0223ca4fc41554f81ac56e3c39053b,
         type: 3}
       propertyPath: patrolTargets.Array.data[0]
@@ -629,7 +614,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1066735913
 MonoBehaviour:
   m_ObjectHideFlags: 0
