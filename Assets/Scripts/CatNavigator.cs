@@ -39,12 +39,10 @@ public class CatNavigator : MonoBehaviour {
             catAggro.onChaseEnded += EndChase;
         }
         
-        StartCoroutine(NavigateNext());
+        NavigateNext();
     }
 
-    public IEnumerator NavigateNext(int waitTime = 0) {
-        yield return new WaitForSeconds(waitTime);
-
+    public void NavigateNext(int waitTime = 0) {
         if (currentNavMethod == NavMethod.Stationary) {
             currentTarget = stationaryTarget.gameObject;
             navAgent.SetDestination(currentTarget.transform.position);
@@ -53,6 +51,11 @@ public class CatNavigator : MonoBehaviour {
         } else if (currentNavMethod == NavMethod.Chase) {
             StartCoroutine(ChaseRoutine());
         }
+    }
+
+    public IEnumerator NavigateNextDelay(int waitTime) {
+        yield return new WaitForSeconds(waitTime);
+        NavigateNext();
     }
 
     public void NavigateNextPatrol() {
@@ -79,18 +82,18 @@ public class CatNavigator : MonoBehaviour {
     public void ActivateChase() {
         if (currentNavMethod == NavMethod.Chase) return;
         currentNavMethod = NavMethod.Chase;
-        StartCoroutine(NavigateNext());
+        NavigateNext();
     }
 
     private void EndChase() {
         currentNavMethod = initialNavMethod;
-        StartCoroutine(NavigateNext());
+        NavigateNext();
     }
 
     private void OnTriggerEnter(Collider other) {
         if (other.TryGetComponent(out NavTarget target)) {
             if (target.name.Equals(currentTarget.name)) {
-                StartCoroutine(NavigateNext(target.WaitTime));
+                StartCoroutine(NavigateNextDelay(target.WaitTime));
             }
         }
     }
