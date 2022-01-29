@@ -10,22 +10,28 @@ public class EndDoor : MonoBehaviour, IPickUp
     
     public void PlaceGems(int amount)
     {
+        StartCoroutine(PlaceGemsWithInterval(amount, 1));
+    }
+
+    IEnumerator PlaceGemsWithInterval(int amount, float interval)
+    {
         for (int i = 0; i < amount; i++)
         {
             var gemSlot = GetFirstOpenSlot();
 
             if (gemSlot)
             {
+                yield return new WaitForSeconds(interval);
                 gemSlot.Fill();
                 Instantiate(doorGem, gemSlot.transform.position, Quaternion.identity);
             }
             else
             {
                 OpenDoor();
-                return;
             }
         }
-
+        
+        
         if (!GetFirstOpenSlot())
         {
             OpenDoor();

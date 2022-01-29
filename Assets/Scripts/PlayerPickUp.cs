@@ -16,7 +16,10 @@ public class PlayerPickUp : MonoBehaviour
 
     public void Hover(Transform up)
     {
-        hover = up;
+        if (Vector3.Distance(transform.position, up.transform.position) < pickUpDistance)
+        {
+            hover = up;
+        }
     }
 
     public void UnHover()
