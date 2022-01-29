@@ -64,6 +64,7 @@ namespace ECM.Controllers
         [Tooltip("Can the character crouch")]
         [SerializeField]
         private bool _canCrouch = true;
+        public float crouchMultiplier = .5f;
 
         [Tooltip("The character's capsule height while standing.")]
         [SerializeField]
@@ -786,15 +787,15 @@ namespace ECM.Controllers
                 var currentFriction = isGrounded ? groundFriction : airFriction;
                 var currentBrakingFriction = useBrakingFriction ? brakingFriction : currentFriction;
 
-                movement.Move(desiredVelocity, speed, acceleration, deceleration, currentFriction,
+                movement.Move(desiredVelocity, isCrouching ? speed * crouchMultiplier : speed, acceleration, deceleration, currentFriction,
                     currentBrakingFriction, !allowVerticalMovement);
             }
 
             // Jump logic
             
-            Jump();
-            MidAirJump();
-            UpdateJumpTimer();
+            // Jump();
+            // MidAirJump();
+            // UpdateJumpTimer();
 
             // Update root motion state,
             // should animator root motion be enabled? (eg: is grounded)
@@ -851,9 +852,12 @@ namespace ECM.Controllers
                 z = Input.GetAxisRaw("Vertical")
             };
 
-            jump = Input.GetButton("Jump");
+            // jump = Input.GetButton("Jump");
 
-            crouch = Input.GetKey(KeyCode.C);
+            if (Input.GetButtonDown("Crouch"))
+            {
+                crouch = !crouch;
+            }
         }
 
         #endregion
