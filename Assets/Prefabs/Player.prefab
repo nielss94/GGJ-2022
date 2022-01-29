@@ -1,5 +1,76 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &989120516
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 989120517}
+  - component: {fileID: 989120518}
+  m_Layer: 0
+  m_Name: PlayerSteps
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &989120517
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 989120516}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.15, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4544411343771637754}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &989120518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 989120516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 165caf3b692f61643bec476712900530, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sandSteps:
+  - {fileID: 8300000, guid: 40a44da07637c894a9a46f6920f07b5a, type: 3}
+  - {fileID: 8300000, guid: 1ded5f4afc5f6444d852fcc86f1de4f7, type: 3}
+  - {fileID: 8300000, guid: 7a2d62864f9151d498e9d8014eddd16c, type: 3}
+  - {fileID: 8300000, guid: 89aa926051c34fc46b2f67cce6b3e50f, type: 3}
+  - {fileID: 8300000, guid: bb5e5512870f5884b8c533dc1035096b, type: 3}
+  - {fileID: 8300000, guid: 4f28813ff4e34ba49bdef687ba4d81a7, type: 3}
+  - {fileID: 8300000, guid: 528573672716d2744a447569746dce7a, type: 3}
+  - {fileID: 8300000, guid: c81b0085843451e479486cd1be32b64c, type: 3}
+  - {fileID: 8300000, guid: 5703bf48d01ee074bb519d31a3f14b46, type: 3}
+  - {fileID: 8300000, guid: 99003d412d1530b49bbe88859b30c399, type: 3}
+  - {fileID: 8300000, guid: 07d4a0544b5fc5e489653ee9a863a37e, type: 3}
+  stoneSteps:
+  - {fileID: 8300000, guid: b1c72f58e2f6a3e48b7c71280ddf1a3c, type: 3}
+  - {fileID: 8300000, guid: ee8093b65ce841143ab5139164b54a17, type: 3}
+  - {fileID: 8300000, guid: 864bb4bfefbd2d64391fbf62f0ad8826, type: 3}
+  - {fileID: 8300000, guid: 6ffee6cf231b21640b9cd5a313ec43bc, type: 3}
+  - {fileID: 8300000, guid: 503adf706fa0b2b49ba1a5c4889393fe, type: 3}
+  - {fileID: 8300000, guid: aecda16d4f2c33c4aaf1ab14d00f616f, type: 3}
+  - {fileID: 8300000, guid: c7f90ea2496b38b4ab992d9ed2deba9a, type: 3}
+  - {fileID: 8300000, guid: 2779f690c6795f347bf22ecfa3556126, type: 3}
+  - {fileID: 8300000, guid: 174e651dd41382942830072d66e499d5, type: 3}
+  - {fileID: 8300000, guid: de4d3920bb6d828428d0e89093e83d68, type: 3}
+  - {fileID: 8300000, guid: c544131bf97e712419a046b4de2841e2, type: 3}
+  walkInterval: 0.5
+  runInterval: 0.3
+  characterMovement: {fileID: 4506664732293665812}
 --- !u!1 &2761611020011698235
 GameObject:
   m_ObjectHideFlags: 0
@@ -447,6 +518,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4543593033470970452}
+  - {fileID: 989120517}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -699,16 +771,16 @@ MonoBehaviour:
     loop: 0
   staminaStages:
   - staminaLevel: 0
-    audioClip: {fileID: 8300000, guid: 7091e9aad214bdd4f9859d6737b3a6ad, type: 3}
+    audioClip: {fileID: 0}
     loop: 1
   - staminaLevel: 25
-    audioClip: {fileID: 8300000, guid: 7091e9aad214bdd4f9859d6737b3a6ad, type: 3}
+    audioClip: {fileID: 0}
     loop: 1
   - staminaLevel: 75
-    audioClip: {fileID: 8300000, guid: 7091e9aad214bdd4f9859d6737b3a6ad, type: 3}
+    audioClip: {fileID: 0}
     loop: 1
   - staminaLevel: 100
-    audioClip: {fileID: 8300000, guid: 7091e9aad214bdd4f9859d6737b3a6ad, type: 3}
+    audioClip: {fileID: 0}
     loop: 0
 --- !u!114 &7089721819001764509
 MonoBehaviour:
