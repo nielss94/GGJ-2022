@@ -21,8 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="9a5fc724-8db1-44c0-80e9-0ddaaabf67a2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GGJ2022/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GGJ2022/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EndDoor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EndDoor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerPickUp.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerPickUp.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Niels.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Niels.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AudioManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AudioManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerSteps.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerSteps.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +76,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerStamina.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerLamp.cs" />
         <option value="$PROJECT_DIR$/Assets/Easy Character Movement/Scripts/Controllers/BaseCharacterController.cs" />
@@ -90,10 +90,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/GemSlot.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DoorGem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AudioClipPlayer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/AudioManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerSteps.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EndDoor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerPickUp.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerStamina.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AudioManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerSteps.cs" />
       </list>
     </option>
   </component>
@@ -138,7 +139,7 @@
       <option name="presentableId" value="Default" />
       <updated>1643410226164</updated>
       <workItem from="1643410230578" duration="15672000" />
-      <workItem from="1643452451699" duration="6319000" />
+      <workItem from="1643452451699" duration="8649000" />
     </task>
     <task id="LOCAL-00001" summary="more">
       <created>1643419940411</created>
@@ -184,10 +185,10 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="461" y="224" key="SettingsEditor/0.0.1920.1160@0.0.1920.1160" timestamp="1643410267284" />
-    <state x="92" y="92" width="1736" height="976" key="VCS.FileHistoryDialog" timestamp="1643410790291">
+    <state x="92" y="92" width="1736" height="976" key="VCS.FileHistoryDialog" timestamp="1643460227784">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="92" y="92" width="1736" height="976" key="VCS.FileHistoryDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1643410790291" />
+    <state x="92" y="92" width="1736" height="976" key="VCS.FileHistoryDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1643460227784" />
     <state x="552" y="299" key="Vcs.Push.Dialog.v2" timestamp="1643419942001">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
