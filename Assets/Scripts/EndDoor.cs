@@ -35,7 +35,7 @@ public class EndDoor : MonoBehaviour, IPickUp
             {
                 yield return new WaitForSeconds(interval);
                 gemSlot.Fill();
-                Instantiate(doorGem, gemSlot.transform.position, Quaternion.identity);
+                Instantiate(doorGem, gemSlot.transform.position, gemSlot.transform.rotation);
                 _audioManager.PlayOneShot(placeGemSound, gemSlot.transform.position, 1, 1f);
             }
             else
