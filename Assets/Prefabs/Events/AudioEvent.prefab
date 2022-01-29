@@ -75,5 +75,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 523a94bd3e5b7494dab91c8077f35afc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioClip: {fileID: 8300000, guid: 7d7c7b51cc3169f43a90a76a5ecf62a9, type: 3}
+  audioClip: {fileID: 8300000, guid: 47382cd7a988d9a428fbc02a33846827, type: 3}
   position: {fileID: 0}
+  destroyOnActivated: 1
