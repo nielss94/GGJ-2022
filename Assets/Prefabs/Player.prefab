@@ -822,7 +822,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bdd78ad1b02523246af003cc14e20b40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 5
+  _speed: 4
   _angularSpeed: 540
   _acceleration: 50
   _deceleration: 20
@@ -833,7 +833,7 @@ MonoBehaviour:
   _airControl: 0.2
   _canCrouch: 1
   crouchMultiplier: 0.5
-  _standingHeight: 2
+  _standingHeight: 1.8
   _crouchingHeight: 1
   _baseJumpHeight: 1.5
   _extraJumpTime: 0.5
@@ -846,7 +846,7 @@ MonoBehaviour:
   _forwardSpeed: 5
   _backwardSpeed: 3
   _strafeSpeed: 4
-  _runSpeedMultiplier: 2
+  _runSpeedMultiplier: 1.75
 --- !u!82 &41483301
 AudioSource:
   m_ObjectHideFlags: 0
@@ -957,25 +957,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxStamina: 100
   stamina: 0
-  staminaPerSecond: 7
-  regenStaminaAfterSeconds: 3
-  regenStaminaPerSeconds: 5
+  staminaPerSecond: 20
+  regenStaminaAfterSeconds: 5
+  regenStaminaPerSeconds: 10
   currentStaminaStage:
     staminaLevel: 0
     audioClip: {fileID: 0}
     loop: 0
   staminaStages:
   - staminaLevel: 0
-    audioClip: {fileID: 0}
+    audioClip: {fileID: 8300000, guid: bccec2ec95df33247b6b2386b77c4864, type: 3}
     loop: 1
-  - staminaLevel: 24
-    audioClip: {fileID: 0}
+  - staminaLevel: 25
+    audioClip: {fileID: 8300000, guid: e9897b3709e20af458bac5a7350ceeec, type: 3}
     loop: 1
-  - staminaLevel: 69
-    audioClip: {fileID: 0}
+  - staminaLevel: 75
+    audioClip: {fileID: 8300000, guid: 7091e9aad214bdd4f9859d6737b3a6ad, type: 3}
     loop: 1
   - staminaLevel: 100
-    audioClip: {fileID: 0}
+    audioClip: {fileID: 8300000, guid: 7d7c7b51cc3169f43a90a76a5ecf62a9, type: 3}
     loop: 0
 --- !u!1 &6665079507305706026
 GameObject:
