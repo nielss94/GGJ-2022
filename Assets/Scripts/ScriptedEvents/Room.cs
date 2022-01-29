@@ -19,6 +19,7 @@ public class Room : MonoBehaviour
     [Header("Move Object")] 
     public Transform moveObject;
 
+    public AudioClip onMoveAudio;
     public float moveSpeed;
     public Vector3 moveAmount;
     private Vector3 moveDestination;
@@ -28,10 +29,15 @@ public class Room : MonoBehaviour
 
     [Header("Spawn Object")] 
     public GameObject spawnObject;
+    public AudioClip onSpawnAudio;
     public Transform spawnPosition;
+
+    private AudioManager _audioManager;
     
     private void Awake()
     {
+        _audioManager = FindObjectOfType<AudioManager>();
+
         foreach (var trigger in triggers)
         {
             trigger.onTrigger += ToggleInside;
@@ -75,6 +81,7 @@ public class Room : MonoBehaviour
 
             if (moveObject)
             {
+                _audioManager.PlayOneShot(onMoveAudio, moveObject.transform.position, 1);
                 moveDestination = new Vector3(moveObject.position.x + moveAmount.x, moveObject.position.y + moveAmount.y,
                     moveObject.position.z + moveAmount.z);
             }
@@ -82,6 +89,8 @@ public class Room : MonoBehaviour
             if (spawnObject)
             {
                 Instantiate(spawnObject, spawnPosition.position, Quaternion.identity);
+                _audioManager.PlayOneShot(onSpawnAudio, spawnObject.transform.position, 1);
+
             }
         }
     }

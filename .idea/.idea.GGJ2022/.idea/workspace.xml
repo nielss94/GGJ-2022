@@ -21,14 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9a5fc724-8db1-44c0-80e9-0ddaaabf67a2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GGJ2022/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GGJ2022/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Samples/gem_lock.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Samples/gem_lock.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Samples/gem_pick_up.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Samples/gem_pick_up.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/EndDoor.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/EndDoor.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Gem.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Gem.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EndDoor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EndDoor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptedEvents/Room.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptedEvents/Room.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,9 +104,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/TextAppearAfterSeconds.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptedEvents/TriggerEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptedEvents/ScriptedEvent.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ScriptedEvents/Room.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptedEvents/SpawnObjEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EndDoor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScriptedEvents/Room.cs" />
       </list>
     </option>
   </component>
@@ -166,7 +159,7 @@
       <option name="presentableId" value="Default" />
       <updated>1643410226164</updated>
       <workItem from="1643410230578" duration="15672000" />
-      <workItem from="1643452451699" duration="16195000" />
+      <workItem from="1643452451699" duration="16459000" />
     </task>
     <task id="LOCAL-00001" summary="more">
       <created>1643419940411</created>
