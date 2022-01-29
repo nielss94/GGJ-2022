@@ -799,6 +799,11 @@ MonoBehaviour:
   lampPos: {fileID: 6058955779811254689}
   playerLamp: {fileID: 921905625268019126, guid: 24eb3f7a9d6d91e4db5d7b86cc1059ee,
     type: 3}
+  death:
+  - {fileID: 8300000, guid: d6c38aa80668f2d47b8f70b86cfbbbcc, type: 3}
+  - {fileID: 8300000, guid: 01969b4f48fb74f4283b1f95316f8f16, type: 3}
+  - {fileID: 8300000, guid: bda1799cfaff008489b0ce3e93cb510f, type: 3}
+  - {fileID: 8300000, guid: 2b3910b7122749d48b8687cd402b8b88, type: 3}
   dead: 0
 --- !u!114 &41483303
 MonoBehaviour:

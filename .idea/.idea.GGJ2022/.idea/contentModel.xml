@@ -86,6 +86,7 @@
           <e p="CatAggro.cs" t="Include" />
           <e p="CatAudio.cs" t="Include" />
           <e p="CatNavigator.cs" t="Include" />
+          <e p="DarthFader.cs" t="Include" />
           <e p="DoorGem.cs" t="Include" />
           <e p="EndDoor.cs" t="Include" />
           <e p="Gem.cs" t="Include" />
