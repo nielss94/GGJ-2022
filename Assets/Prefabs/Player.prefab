@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2761611020011698235}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.417, z: 1.073}
+  m_LocalPosition: {x: 0.347, y: -0.245, z: 1.594}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -426,6 +426,7 @@ GameObject:
   - component: {fileID: 41483300}
   - component: {fileID: 7089721819001764509}
   - component: {fileID: 41483303}
+  - component: {fileID: 1847386516}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -567,12 +568,12 @@ MonoBehaviour:
   crouchMultiplier: 0.5
   _standingHeight: 1.8
   _crouchingHeight: 1
-  _baseJumpHeight: 1.5
-  _extraJumpTime: 0.5
-  _extraJumpPower: 25
-  _jumpPreGroundedToleranceTime: 0.15
-  _jumpPostGroundedToleranceTime: 0.15
-  _maxMidAirJumps: 1
+  _baseJumpHeight: 0
+  _extraJumpTime: 0
+  _extraJumpPower: 0
+  _jumpPreGroundedToleranceTime: 0
+  _jumpPostGroundedToleranceTime: 0
+  _maxMidAirJumps: 0
   _useRootMotion: 0
   _rootMotionRotation: 0
   _forwardSpeed: 5
@@ -737,3 +738,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hover: {fileID: 0}
+  pickUpDistance: 4
+--- !u!114 &1847386516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4547779508034552074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21e6f968e35c47945b7f59e743b772af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gems: 0

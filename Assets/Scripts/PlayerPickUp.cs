@@ -6,7 +6,8 @@ using UnityEngine;
 public class PlayerPickUp : MonoBehaviour
 {
     public Transform hover;
-    
+    public float pickUpDistance;
+
     private PlayerInventory _playerInventory;
     private void Awake()
     {
@@ -27,13 +28,15 @@ public class PlayerPickUp : MonoBehaviour
     {
         if (Input.GetButtonDown("PickUp") && hover)
         {
-            if (hover.TryGetComponent(out Gem gem))
+            if (Vector3.Distance(transform.position, hover.transform.position) < pickUpDistance)
             {
-                gem.PickUp();
-                Destroy(gem.gameObject);
-                _playerInventory.gems++;
-                hover = null;
-                
+                if (hover.TryGetComponent(out Gem gem))
+                {
+                    gem.PickUp();
+                    Destroy(gem.gameObject);
+                    _playerInventory.gems++;
+                    hover = null;
+                }
             }
         }
     }

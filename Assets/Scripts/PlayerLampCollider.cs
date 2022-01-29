@@ -14,7 +14,6 @@ public class PlayerLampCollider : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log(other.gameObject.name);
         // if (other.TryGetComponent(out CatNavigator cat)) ... 
     }
 
