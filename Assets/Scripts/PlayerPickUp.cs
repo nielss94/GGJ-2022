@@ -28,9 +28,9 @@ public class PlayerPickUp : MonoBehaviour
     {
         if (Input.GetButtonDown("PickUp") && hover)
         {
-            if (Vector3.Distance(transform.position, hover.transform.position) < pickUpDistance)
+            if (hover.TryGetComponent(out Gem gem))
             {
-                if (hover.TryGetComponent(out Gem gem))
+                if (Vector3.Distance(transform.position, hover.transform.position) < pickUpDistance)
                 {
                     gem.PickUp();
                     Destroy(gem.gameObject);
@@ -38,6 +38,16 @@ public class PlayerPickUp : MonoBehaviour
                     hover = null;
                 }
             }
+            else if (hover.TryGetComponent(out EndDoor endDoor))
+            {
+                if (Vector3.Distance(transform.position, hover.transform.position) < pickUpDistance)
+                {
+                    endDoor.PlaceGems(_playerInventory.gems);
+                    _playerInventory.gems = 0;
+                    hover = null;
+                }
+            }
+            
         }
     }
 }
