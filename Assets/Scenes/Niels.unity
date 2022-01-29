@@ -1320,25 +1320,5 @@ PrefabInstance:
       propertyPath: m_Name
       value: Proto_Level
       objectReference: {fileID: 0}
-    - target: {fileID: 8424817718937297130, guid: e9788d1ad9ca08c4e8194b20b336308c,
-        type: 3}
-      propertyPath: m_Name
-      value: Floor
-      objectReference: {fileID: 0}
-    - target: {fileID: 8424817718937297130, guid: e9788d1ad9ca08c4e8194b20b336308c,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8424817719632656522, guid: e9788d1ad9ca08c4e8194b20b336308c,
-        type: 3}
-      propertyPath: m_Name
-      value: Roof
-      objectReference: {fileID: 0}
-    - target: {fileID: 8424817719632656522, guid: e9788d1ad9ca08c4e8194b20b336308c,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e9788d1ad9ca08c4e8194b20b336308c, type: 3}
