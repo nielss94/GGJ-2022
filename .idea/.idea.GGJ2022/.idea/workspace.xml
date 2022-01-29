@@ -20,17 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a5fc724-8db1-44c0-80e9-0ddaaabf67a2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GGJ2022/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GGJ2022/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GGJ2022/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GGJ2022/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Gem.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Gem.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Gem.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Gem.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Lamp.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Lamp.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LD_WhiteBox.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LD_WhiteBox.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerLampCollider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerLampCollider.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerPickUp.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerPickUp.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Niels.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Niels.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +59,7 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/dev/GGJ2022/Assets/Scenes/Niels.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerPickUp.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock://C:/dev/GGJ2022/Assets/Scripts/AudioManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/dev/GGJ2022/ProjectSettings/TagManager.asset" root0="SKIP_HIGHLIGHTING" />
@@ -101,6 +94,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerInventory.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerLampCollider.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerPickUp.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScriptedEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScriptedEvents/MoveToObjEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScriptedEvents/MovePosEvent.cs" />
       </list>
     </option>
   </component>

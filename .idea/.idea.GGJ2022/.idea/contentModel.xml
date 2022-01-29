@@ -50,6 +50,11 @@
           <e p="PlayerLampCollider.cs" t="Include" />
           <e p="PlayerPickUp.cs" t="Include" />
           <e p="PlayerStamina.cs" t="Include" />
+          <e p="ScriptedEvents" t="Include">
+            <e p="MovePosEvent.cs" t="Include" />
+            <e p="MoveToObjEvent.cs" t="Include" />
+            <e p="ScriptedEvent.cs" t="Include" />
+          </e>
         </e>
         <e p="TutorialInfo" t="Include">
           <e p="Scripts" t="Include">
