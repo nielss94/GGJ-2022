@@ -220,10 +220,10 @@ namespace ECM.Controllers
 
             // jump = Input.GetButton("Jump");
 
-            if (Input.GetButtonDown("Crouch"))
-            {
-                crouch = !crouch;
-            }
+            // if (Input.GetButtonDown("Crouch"))
+            // {
+            //     crouch = !crouch;
+            // }
         }
 
         #endregion

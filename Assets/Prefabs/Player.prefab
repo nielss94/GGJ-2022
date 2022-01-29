@@ -470,7 +470,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4547498861339352916}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -500,7 +500,7 @@ GameObject:
   - component: {fileID: 1847386516}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -636,7 +636,7 @@ MonoBehaviour:
   _brakingFriction: 8
   _airFriction: 0
   _airControl: 0.2
-  _canCrouch: 1
+  _canCrouch: 0
   crouchMultiplier: 0.5
   _standingHeight: 2.2
   _crouchingHeight: 1
@@ -649,7 +649,7 @@ MonoBehaviour:
   _useRootMotion: 0
   _rootMotionRotation: 0
   _forwardSpeed: 5
-  _backwardSpeed: 3
+  _backwardSpeed: 2
   _strafeSpeed: 4
   _runSpeedMultiplier: 1.75
 --- !u!82 &41483301
