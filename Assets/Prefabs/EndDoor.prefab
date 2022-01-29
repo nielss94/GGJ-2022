@@ -274,6 +274,7 @@ MonoBehaviour:
   - {fileID: 1898513916644897353}
   - {fileID: 1898513916110318479}
   - {fileID: 1898513916885858948}
+  placeGemSound: {fileID: 8300000, guid: b6f0720a176bd854c9840d654da9cd62, type: 3}
   doorGem: {fileID: 1838312456768413476, guid: 2f48d022295833643bdad45a618b3e9b, type: 3}
 --- !u!135 &5618828193985931428
 SphereCollider:

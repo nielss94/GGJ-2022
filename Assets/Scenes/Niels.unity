@@ -209,34 +209,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 41483300, guid: a0adab9744a618d4f9b3a6bb6549a7f5, type: 3}
-      propertyPath: staminaPerSecond
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 41483300, guid: a0adab9744a618d4f9b3a6bb6549a7f5, type: 3}
-      propertyPath: cooldownAfterMaxStamina
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 41483300, guid: a0adab9744a618d4f9b3a6bb6549a7f5, type: 3}
-      propertyPath: regenStaminaAfterSeconds
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 41483300, guid: a0adab9744a618d4f9b3a6bb6549a7f5, type: 3}
-      propertyPath: staminaStages.Array.data[0].audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: e8246c2207c139646b2708d255e8e3b1, type: 3}
-    - target: {fileID: 41483300, guid: a0adab9744a618d4f9b3a6bb6549a7f5, type: 3}
-      propertyPath: staminaStages.Array.data[1].audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: 8019be99ff2b7bc41af7483edfc1eb45, type: 3}
-    - target: {fileID: 41483300, guid: a0adab9744a618d4f9b3a6bb6549a7f5, type: 3}
-      propertyPath: staminaStages.Array.data[2].audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: 24f275caead45d643b18014637b00645, type: 3}
-    - target: {fileID: 41483300, guid: a0adab9744a618d4f9b3a6bb6549a7f5, type: 3}
-      propertyPath: staminaStages.Array.data[3].audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: c9ca7738e8d32fe4a9beefc9be0111ac, type: 3}
     - target: {fileID: 4544411343771637754, guid: a0adab9744a618d4f9b3a6bb6549a7f5,
         type: 3}
       propertyPath: m_RootOrder

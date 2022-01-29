@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,9 +6,15 @@ using UnityEngine;
 public class EndDoor : MonoBehaviour, IPickUp
 {
     public List<GemSlot> gemSlots = new List<GemSlot>();
-
+    public AudioClip placeGemSound;
     public DoorGem doorGem;
-    
+    private AudioManager _audioManager;
+
+    private void Awake()
+    {
+        _audioManager = FindObjectOfType<AudioManager>();
+    }
+
     public void PlaceGems(int amount)
     {
         StartCoroutine(PlaceGemsWithInterval(amount, 1));
@@ -24,6 +31,7 @@ public class EndDoor : MonoBehaviour, IPickUp
                 yield return new WaitForSeconds(interval);
                 gemSlot.Fill();
                 Instantiate(doorGem, gemSlot.transform.position, Quaternion.identity);
+                _audioManager.PlayOneShot(placeGemSound, gemSlot.transform.position, 1, 1f);
             }
             else
             {

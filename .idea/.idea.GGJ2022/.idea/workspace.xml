@@ -22,9 +22,11 @@
     <list default="true" id="9a5fc724-8db1-44c0-80e9-0ddaaabf67a2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GGJ2022/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GGJ2022/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GGJ2022/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GGJ2022/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Mixers/AudioMixer.mixer" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/Mixers/AudioMixer.mixer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Niels.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Niels.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EndDoor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EndDoor.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
     </list>
@@ -46,12 +48,12 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="feature/menu" />
-                    <option name="lastUsedInstant" value="1643463289" />
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1643464835" />
                   </RecentBranch>
                   <RecentBranch>
-                    <option name="branchName" value="master" />
-                    <option name="lastUsedInstant" value="1643427411" />
+                    <option name="branchName" value="feature/menu" />
+                    <option name="lastUsedInstant" value="1643463289" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="feature/player" />
@@ -98,7 +100,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/GemSlot.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DoorGem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AudioClipPlayer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/EndDoor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerPickUp.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AudioManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerSteps.cs" />
@@ -106,6 +107,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerStamina.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/ClickToStart.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TextAppearAfterSeconds.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EndDoor.cs" />
       </list>
     </option>
   </component>
@@ -122,6 +124,14 @@
     <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$USER_HOME$/Desktop/b\GGJ2022.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\Niels\Desktop\b" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
@@ -150,7 +160,7 @@
       <option name="presentableId" value="Default" />
       <updated>1643410226164</updated>
       <workItem from="1643410230578" duration="15672000" />
-      <workItem from="1643452451699" duration="11286000" />
+      <workItem from="1643452451699" duration="13364000" />
     </task>
     <task id="LOCAL-00001" summary="more">
       <created>1643419940411</created>
