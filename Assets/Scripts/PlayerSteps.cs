@@ -33,7 +33,7 @@ public class PlayerSteps : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetButton("Horizontal") || Input.GetButton("Vertical"))
+        if (Input.GetButton("Horizontal") || Input.GetButton("Vertical") || Input.GetAxisRaw("Horizontal") != 0 || Input.GetAxisRaw("Vertical") != 0)
         {
             //TODO: Get type of floor
             
