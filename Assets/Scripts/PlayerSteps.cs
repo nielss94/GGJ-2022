@@ -43,7 +43,7 @@ public class PlayerSteps : MonoBehaviour
                 {
                     PlayOneShot(StepType.STONE, .8f);
                     float t = Random.Range(0.2f, 0.3f);
-                    StartCoroutine(PlayLamp(t));
+                    StartCoroutine(PlayLamp(t, true));
                 }
             }
             else
@@ -52,7 +52,7 @@ public class PlayerSteps : MonoBehaviour
                 {
                     PlayOneShot(StepType.STONE, 0.5f);
                     float t = Random.Range(0.25f, 0.45f);
-                    StartCoroutine(PlayLamp(t));
+                    StartCoroutine(PlayLamp(t, false));
                 }
             }
         }
@@ -72,12 +72,12 @@ public class PlayerSteps : MonoBehaviour
         }
     }
 
-    private IEnumerator PlayLamp(float t)
+    private IEnumerator PlayLamp(float t, bool run = false)
     {
         var playerLamp = FindObjectOfType<PlayerLamp>();
         
         yield return new WaitForSeconds(t);
         
-        playerLamp.PlayLampSound();
+        playerLamp.PlayLampSound(run);
     }
 }

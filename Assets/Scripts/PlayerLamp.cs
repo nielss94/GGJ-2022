@@ -8,9 +8,11 @@ public class PlayerLamp : MonoBehaviour
 {
     public float floatSpeed;
     public List<AudioClip> lampChainSounds = new List<AudioClip>();
+    public List<AudioClip> lampSqueekSounds = new List<AudioClip>();
 
 
-    private int curIndex = 0;
+    private int curChainIndex = 0;
+    private int curSqueekIndex = 0;
     private Player _player;
     private AudioManager _audioManager;
     private Random r = new Random();
@@ -30,21 +32,35 @@ public class PlayerLamp : MonoBehaviour
         transform.rotation = _player.lampPos.rotation;
     }
 
-    public void PlayLampSound()
+    public void PlayLampSound(bool run)
     {
         if (lampChainSounds.Count <= 0) return;
 
-        if (r.NextDouble() < .9f)
+        if (run)
         {
-            _audioManager.PlayOneShot(lampChainSounds[curIndex], transform.position, 1, .8f);
-            
-        } 
-
-        curIndex++;
-
-        if (curIndex > lampChainSounds.Count - 1)
+            if (r.NextDouble() < .7f)
+            {
+                _audioManager.PlayOneShot(lampChainSounds[curChainIndex], transform.position, 1, .8f);
+            }
+        }
+        
+        
+        if (r.NextDouble() < .6f)
         {
-            curIndex = 0;
+            _audioManager.PlayOneShot(lampSqueekSounds[curSqueekIndex], transform.position, 1, .8f);
+        }
+        
+        curChainIndex++;
+        curSqueekIndex++;
+
+        if (curChainIndex > lampChainSounds.Count - 1)
+        {
+            curChainIndex = 0;
+        }
+        
+        if (curSqueekIndex > lampSqueekSounds.Count - 1)
+        {
+            curSqueekIndex = 0;
         }
     }
 }
