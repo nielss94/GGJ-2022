@@ -47,6 +47,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   floatSpeed: 10
+  lampChainSounds:
+  - {fileID: 8300000, guid: 1ac809d4443c63c42956ee4d729bb709, type: 3}
+  - {fileID: 8300000, guid: c0909039f8e36b7468d3777e0796f3d0, type: 3}
+  - {fileID: 8300000, guid: 3cb973c4980c79641944959a3e518f5d, type: 3}
+  - {fileID: 8300000, guid: 861bc9fa2e537e849b9759d60786afad, type: 3}
+  - {fileID: 8300000, guid: c0aa92f78e9e0fe44a40c965a8f9f917, type: 3}
+  - {fileID: 8300000, guid: 18c7acbdf4a83054ab109890f4c84d9f, type: 3}
+  - {fileID: 8300000, guid: 6bcd03d85245aab4fb052c05f354ca13, type: 3}
+  - {fileID: 8300000, guid: cef20ec1a9ab77e44bfa7daed3cd7a18, type: 3}
+  lampSqueekSounds:
+  - {fileID: 8300000, guid: aafde787252fb2642b41413af12ab14e, type: 3}
+  - {fileID: 8300000, guid: 8960ab382bf398e48bbf8d9e9264cbf3, type: 3}
+  - {fileID: 8300000, guid: 5ee4b9481e2728747a0630d8fc68361b, type: 3}
+  - {fileID: 8300000, guid: 625e5494be7915d42b3d610564d0f798, type: 3}
+  - {fileID: 8300000, guid: 0935fb97bc8e1414ab2c0d402de84c79, type: 3}
+  - {fileID: 8300000, guid: e3ca691967498694c94964af8978f967, type: 3}
+  - {fileID: 8300000, guid: af5051f15e6bf5f45a83dc56ac02edbf, type: 3}
+  - {fileID: 8300000, guid: 25ec0590c06df03408e37e996a9e8522, type: 3}
 --- !u!1001 &1386944591667906995
 PrefabInstance:
   m_ObjectHideFlags: 0

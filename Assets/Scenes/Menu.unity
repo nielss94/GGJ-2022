@@ -499,7 +499,7 @@ MonoBehaviour:
   texts:
   - {fileID: 1417107926}
   - {fileID: 896324787}
-  seconds: 11
+  seconds: 8.5
 --- !u!1 &896324785
 GameObject:
   m_ObjectHideFlags: 0

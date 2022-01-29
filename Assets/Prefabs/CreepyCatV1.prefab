@@ -101,13 +101,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00a5abc11232ab844b9938e75bb14519, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentNavMethod: 1
-  patrolTargets:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  currentNavMethod: 0
+  patrolTargets: []
   stationaryTarget: {fileID: 0}
 --- !u!114 &3385633914449841497
 MonoBehaviour:
