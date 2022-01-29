@@ -20,13 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a5fc724-8db1-44c0-80e9-0ddaaabf67a2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GGJ2022/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GGJ2022/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GGJ2022/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GGJ2022/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Mixers/AudioMixer.mixer" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/Mixers/AudioMixer.mixer" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Niels.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Niels.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Scripts/Controllers/BaseFirstPersonController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Easy Character Movement/Scripts/Controllers/BaseFirstPersonController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,12 +41,12 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="feature/menu" />
-                    <option name="lastUsedInstant" value="1643463289" />
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1643464835" />
                   </RecentBranch>
                   <RecentBranch>
-                    <option name="branchName" value="master" />
-                    <option name="lastUsedInstant" value="1643427411" />
+                    <option name="branchName" value="feature/menu" />
+                    <option name="lastUsedInstant" value="1643463289" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="feature/player" />
@@ -69,16 +64,21 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerPickUp.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu/ClickToStart.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptedEvents/TriggerEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock://C:/dev/GGJ2022/Assets/Scripts/AudioManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/95F13B52-8E48-4EBD-BA8E-37E942F4ABB2/27/b7567323/AudioSource.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptedEvents/AudioEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerLampCollider.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CatAggro.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerSteps.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock://C:/dev/GGJ2022/Assets/Scenes/Niels.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu/HoverSound.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock://C:/dev/GGJ2022/Assets/Prefabs/EndDoor.prefab" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TextAppearAfterSeconds.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/897C4228-2E78-4C7F-B2C1-FA92E1FEEF09/38/5d5efd60/Input.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EndDoor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerLamp.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptedEvents/SpawnObjEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerInventory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerStamina.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -86,7 +86,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerLamp.cs" />
         <option value="$PROJECT_DIR$/Assets/Easy Character Movement/Scripts/Controllers/BaseCharacterController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/IPickUp.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gem.cs" />
@@ -98,14 +97,21 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/GemSlot.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DoorGem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AudioClipPlayer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/EndDoor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerPickUp.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AudioManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerStamina.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScriptedEvents/TriggerEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScriptedEvents/ScriptedEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScriptedEvents/SpawnObjEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EndDoor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScriptedEvents/Room.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Menu/HoverSound.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Menu/ClickToStart.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScriptedEvents/AudioEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TextAppearAfterSeconds.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerLamp.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerSteps.cs" />
         <option value="$PROJECT_DIR$/Assets/Easy Character Movement/Scripts/Controllers/BaseFirstPersonController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerStamina.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Menu/ClickToStart.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TextAppearAfterSeconds.cs" />
       </list>
     </option>
   </component>
@@ -122,6 +128,14 @@
     <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$USER_HOME$/Desktop/b\GGJ2022.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\Niels\Desktop\b" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
@@ -150,7 +164,7 @@
       <option name="presentableId" value="Default" />
       <updated>1643410226164</updated>
       <workItem from="1643410230578" duration="15672000" />
-      <workItem from="1643452451699" duration="11286000" />
+      <workItem from="1643452451699" duration="24832000" />
     </task>
     <task id="LOCAL-00001" summary="more">
       <created>1643419940411</created>
@@ -188,6 +202,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="more" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="598" y="341" key="MultipleFileMergeDialog" timestamp="1643476437193">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="598" y="341" key="MultipleFileMergeDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1643476437193" />
     <state x="788" y="290" key="RollbackChangesDialog" timestamp="1643428475706">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>

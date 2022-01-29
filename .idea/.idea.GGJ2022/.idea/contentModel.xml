@@ -83,6 +83,7 @@
         <e p="Scripts" t="Include">
           <e p="AudioClipPlayer.cs" t="Include" />
           <e p="AudioManager.cs" t="Include" />
+          <e p="CatAggro.cs" t="Include" />
           <e p="CatNavigator.cs" t="Include" />
           <e p="DoorGem.cs" t="Include" />
           <e p="EndDoor.cs" t="Include" />
@@ -91,6 +92,7 @@
           <e p="IPickUp.cs" t="Include" />
           <e p="Menu" t="Include">
             <e p="ClickToStart.cs" t="Include" />
+            <e p="HoverSound.cs" t="Include" />
           </e>
           <e p="NavTarget.cs" t="Include" />
           <e p="Player.cs" t="Include" />
@@ -101,11 +103,18 @@
           <e p="PlayerStamina.cs" t="Include" />
           <e p="PlayerSteps.cs" t="Include" />
           <e p="ScriptedEvents" t="Include">
+            <e p="AudioEvent.cs" t="Include" />
             <e p="MovePosEvent.cs" t="Include" />
             <e p="MoveToObjEvent.cs" t="Include" />
+            <e p="Room.cs" t="Include" />
             <e p="ScriptedEvent.cs" t="Include" />
+            <e p="SpawnObjEvent.cs" t="Include" />
+            <e p="TriggerEvent.cs" t="Include" />
           </e>
           <e p="TextAppearAfterSeconds.cs" t="Include" />
+        </e>
+        <e p="SplashPiel" t="Include">
+          <e p="IntroManager.cs" t="Include" />
         </e>
         <e p="TextMesh Pro" t="Include">
           <e p="Fonts" t="Include">
