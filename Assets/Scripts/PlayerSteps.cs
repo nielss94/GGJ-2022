@@ -41,14 +41,18 @@ public class PlayerSteps : MonoBehaviour
             {
                 if (Time.time > lastStep + runInterval)
                 {
-                    PlayOneShot(StepType.SAND, .8f);
+                    PlayOneShot(StepType.STONE, .8f);
+                    float t = Random.Range(0.2f, 0.3f);
+                    StartCoroutine(PlayLamp(t));
                 }
             }
             else
             {
                 if (Time.time > lastStep + walkInterval)
                 {
-                    PlayOneShot(StepType.SAND, 0.5f);
+                    PlayOneShot(StepType.STONE, 0.5f);
+                    float t = Random.Range(0.25f, 0.45f);
+                    StartCoroutine(PlayLamp(t));
                 }
             }
         }
@@ -66,5 +70,14 @@ public class PlayerSteps : MonoBehaviour
                 _audioManager.PlayOneShot(stoneSteps[Random.Range(0, stoneSteps.Count)], transform.position, 1, volume);
                 break;
         }
+    }
+
+    private IEnumerator PlayLamp(float t)
+    {
+        var playerLamp = FindObjectOfType<PlayerLamp>();
+        
+        yield return new WaitForSeconds(t);
+        
+        playerLamp.PlayLampSound();
     }
 }

@@ -47,6 +47,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   floatSpeed: 10
+  lampChainSounds:
+  - {fileID: 8300000, guid: 1ac809d4443c63c42956ee4d729bb709, type: 3}
+  - {fileID: 8300000, guid: c0909039f8e36b7468d3777e0796f3d0, type: 3}
+  - {fileID: 8300000, guid: 3cb973c4980c79641944959a3e518f5d, type: 3}
+  - {fileID: 8300000, guid: 861bc9fa2e537e849b9759d60786afad, type: 3}
+  - {fileID: 8300000, guid: c0aa92f78e9e0fe44a40c965a8f9f917, type: 3}
+  - {fileID: 8300000, guid: 18c7acbdf4a83054ab109890f4c84d9f, type: 3}
+  - {fileID: 8300000, guid: 6bcd03d85245aab4fb052c05f354ca13, type: 3}
+  - {fileID: 8300000, guid: cef20ec1a9ab77e44bfa7daed3cd7a18, type: 3}
 --- !u!1001 &1386944591667906995
 PrefabInstance:
   m_ObjectHideFlags: 0

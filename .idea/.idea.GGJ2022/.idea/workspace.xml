@@ -21,8 +21,12 @@
   <component name="ChangeListManager">
     <list default="true" id="9a5fc724-8db1-44c0-80e9-0ddaaabf67a2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GGJ2022/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GGJ2022/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Lamp.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Lamp.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Niels.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Niels.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptedEvents/AudioEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptedEvents/AudioEvent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerLamp.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerLamp.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerSteps.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerSteps.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +90,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerLamp.cs" />
         <option value="$PROJECT_DIR$/Assets/Easy Character Movement/Scripts/Controllers/BaseCharacterController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/IPickUp.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gem.cs" />
@@ -100,10 +103,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/AudioClipPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerPickUp.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AudioManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerSteps.cs" />
         <option value="$PROJECT_DIR$/Assets/Easy Character Movement/Scripts/Controllers/BaseFirstPersonController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerStamina.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TextAppearAfterSeconds.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptedEvents/TriggerEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptedEvents/ScriptedEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptedEvents/SpawnObjEvent.cs" />
@@ -112,6 +113,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/HoverSound.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/ClickToStart.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptedEvents/AudioEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TextAppearAfterSeconds.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerSteps.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerLamp.cs" />
       </list>
     </option>
   </component>
@@ -164,7 +168,7 @@
       <option name="presentableId" value="Default" />
       <updated>1643410226164</updated>
       <workItem from="1643410230578" duration="15672000" />
-      <workItem from="1643452451699" duration="18581000" />
+      <workItem from="1643452451699" duration="21966000" />
     </task>
     <task id="LOCAL-00001" summary="more">
       <created>1643419940411</created>
