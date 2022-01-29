@@ -1,7 +1,9 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Numerics;
 using UnityEngine;
+using Vector3 = UnityEngine.Vector3;
 
 public class CatAggro : MonoBehaviour {
     public event Action onChaseStarted = delegate {  };
@@ -49,9 +51,20 @@ public class CatAggro : MonoBehaviour {
         cooldownActive = false;
     }
     
-    private void OnTriggerEnter(Collider other) {
+    private void OnTriggerStay(Collider other) {
         if (other.TryGetComponent(out PlayerLampCollider lampCone)) {
-            StartChasing();
+            var player = FindObjectOfType<Player>();
+            if (player != null) {
+                var playerheight = player.GetComponent<Collider>().bounds.size.y;
+                var catHeight = GetComponent<Collider>().bounds.size.y;
+                var direction = (player.transform.position + ( Vector3.up * playerheight )) - 
+                                ( transform.position + ( Vector3.up * catHeight ) );
+                if (Physics.Raycast(transform.position + Vector3.up * catHeight, direction, out RaycastHit hit)) {
+                    if (hit.transform.CompareTag("Player")) {
+                        StartChasing();
+                    }
+                }
+            }
         }
     }
 }
