@@ -13,13 +13,15 @@ public class PlayerStamina : MonoBehaviour
 
     private bool stopped;
 
+    public int cooldownAfterMaxStamina;
     public int staminaPerSecond;
     public int regenStaminaAfterSeconds;
     public int regenStaminaPerSeconds;
     public StaminaStage currentStaminaStage;
     public List<StaminaStage> staminaStages = new List<StaminaStage>();
 
-
+    private float cooldownStart;
+    public bool onCooldown = false;
     private float lastStopRun = 0;
     private AudioSource _audioSource;
     private BaseFirstPersonController _baseFirstPersonController;
@@ -42,6 +44,10 @@ public class PlayerStamina : MonoBehaviour
 
     private void Update()
     {
+        if (Time.time > cooldownStart + cooldownAfterMaxStamina)
+        {
+            onCooldown = false;
+        }
 
         if (Time.time > lastStopRun + regenStaminaAfterSeconds && !_baseFirstPersonController.run)
         {
@@ -69,8 +75,13 @@ public class PlayerStamina : MonoBehaviour
             }
         }
         
-        if (stamina >= 100 && !stopped || Input.GetButtonUp("Run"))
+        if (stamina >= 100 && !stopped || (Input.GetButtonUp("Run") && !onCooldown))
         {
+            if (stamina >= 100)
+            {
+                onCooldown = true;
+                cooldownStart = Time.time;
+            }
             lastStopRun = Time.time;
             stopped = true;
             SetStaminaStage(null);

@@ -41,29 +41,29 @@ public class PlayerSteps : MonoBehaviour
             {
                 if (Time.time > lastStep + runInterval)
                 {
-                    PlayOneShot(StepType.SAND);
+                    PlayOneShot(StepType.SAND, .8f);
                 }
             }
             else
             {
                 if (Time.time > lastStep + walkInterval)
                 {
-                    PlayOneShot(StepType.SAND);
+                    PlayOneShot(StepType.SAND, 0.5f);
                 }
             }
         }
     }
 
-    private void PlayOneShot(StepType type)
+    private void PlayOneShot(StepType type, float volume = 1)
     {
         lastStep = Time.time;
         switch (type)
         {
             case StepType.SAND:
-                _audioManager.PlayOneShot(sandSteps[Random.Range(0, sandSteps.Count)], transform.position, 1);
+                _audioManager.PlayOneShot(sandSteps[Random.Range(0, sandSteps.Count)], transform.position, 1, volume);
                 break;
             case StepType.STONE:
-                _audioManager.PlayOneShot(stoneSteps[Random.Range(0, stoneSteps.Count)], transform.position, 1);
+                _audioManager.PlayOneShot(stoneSteps[Random.Range(0, stoneSteps.Count)], transform.position, 1, volume);
                 break;
         }
     }
