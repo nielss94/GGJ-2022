@@ -25,7 +25,7 @@ public class Player : MonoBehaviour
         {
             _darthFader.FadeIn();
         }
-        Instantiate(playerLamp, lampPos.position, lampPos.rotation);
+        // Instantiate(playerLamp, lampPos.position, lampPos.rotation);
     }
 
     public void Die()
