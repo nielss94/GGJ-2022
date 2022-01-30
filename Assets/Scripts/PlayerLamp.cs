@@ -10,7 +10,10 @@ public class PlayerLamp : MonoBehaviour
     public List<AudioClip> lampChainSounds = new List<AudioClip>();
     public List<AudioClip> lampSqueekSounds = new List<AudioClip>();
 
-
+    public Animator lampAnimator;
+    public Light light;
+    public GameObject smallCone;
+    public GameObject bigCone;
     private int curChainIndex = 0;
     private int curSqueekIndex = 0;
     private Player _player;
@@ -30,6 +33,23 @@ public class PlayerLamp : MonoBehaviour
     {
         transform.position = Vector3.Lerp(transform.position, new Vector3( _player.lampPos.position.x, _player.lampPos.position.y - .1f, _player.lampPos.position.z), floatSpeed * Time.deltaTime);
         transform.rotation = _player.lampPos.rotation;
+
+        bool lifting = Input.GetButton("Lift") || Input.GetAxisRaw("Lift") != 0; 
+        lampAnimator.SetBool("Lift", lifting);
+        if (lifting)
+        {
+            light.range = 20;
+            light.intensity = 50;
+            bigCone.SetActive(true);
+            smallCone.SetActive(false);
+        }
+        else
+        {
+            bigCone.SetActive(false);
+            smallCone.SetActive(true);
+            light.intensity = 25;
+            light.range = 10;
+        }
     }
 
     public void PlayLampSound(bool run)

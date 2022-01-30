@@ -335,14 +335,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1847386516, guid: a0adab9744a618d4f9b3a6bb6549a7f5, type: 3}
-      propertyPath: gems
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1847386516, guid: a0adab9744a618d4f9b3a6bb6549a7f5, type: 3}
-      propertyPath: totalGems
-      value: 0
-      objectReference: {fileID: 0}
+    - target: {fileID: 921905625088109687, guid: a0adab9744a618d4f9b3a6bb6549a7f5,
+        type: 3}
+      propertyPath: bigCone
+      value: 
+      objectReference: {fileID: 319677586}
+    - target: {fileID: 921905625088109687, guid: a0adab9744a618d4f9b3a6bb6549a7f5,
+        type: 3}
+      propertyPath: smallCone
+      value: 
+      objectReference: {fileID: 1257085320}
     - target: {fileID: 4544411343771637754, guid: a0adab9744a618d4f9b3a6bb6549a7f5,
         type: 3}
       propertyPath: m_RootOrder
@@ -403,13 +405,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 4547779508034552074, guid: a0adab9744a618d4f9b3a6bb6549a7f5,
-        type: 3}
-      propertyPath: m_TagString
-      value: Player
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a0adab9744a618d4f9b3a6bb6549a7f5, type: 3}
+--- !u!1 &319677586 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8059755135079999466, guid: a0adab9744a618d4f9b3a6bb6549a7f5,
+    type: 3}
+  m_PrefabInstance: {fileID: 319677585}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &446411021
 GameObject:
   m_ObjectHideFlags: 0
@@ -876,37 +879,12 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: bccec2ec95df33247b6b2386b77c4864, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0866844413af9914d9a04463413eb853, type: 3}
---- !u!1 &1208500511 stripped
+--- !u!1 &1257085320 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 4547779508034552074, guid: a0adab9744a618d4f9b3a6bb6549a7f5,
+  m_CorrespondingSourceObject: {fileID: 3290430521253931495, guid: a0adab9744a618d4f9b3a6bb6549a7f5,
     type: 3}
   m_PrefabInstance: {fileID: 319677585}
   m_PrefabAsset: {fileID: 0}
---- !u!169 &1208500524
-AudioLowPassFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1208500511}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_LowpassResonanceQ: 1
-  lowpassLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0.22727273
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!1001 &1467290782
 PrefabInstance:
   m_ObjectHideFlags: 0
