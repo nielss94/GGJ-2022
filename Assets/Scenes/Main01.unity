@@ -476,7 +476,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 69}
-  m_SizeDelta: {x: 200, y: 50}
+  m_SizeDelta: {x: 500, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &382694450
 MonoBehaviour:
@@ -500,8 +500,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: A to interact
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 7fac8f8a389a1a84bbf4602f5e705f9e, type: 2}
+  m_sharedMaterial: {fileID: -7352720031533014546, guid: 7fac8f8a389a1a84bbf4602f5e705f9e,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -985,8 +986,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'L-Trigger: Sprint'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 7fac8f8a389a1a84bbf4602f5e705f9e, type: 2}
+  m_sharedMaterial: {fileID: -7352720031533014546, guid: 7fac8f8a389a1a84bbf4602f5e705f9e,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1428,6 +1430,7 @@ MonoBehaviour:
   seconds: 10
   disappearAfter: 1
   disappearAfterSeconds: 3
+  setText: 0
 --- !u!114 &2031871546 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 155107906419421061, guid: 6bc5da8fd29fdfd4b868f215166c955d,
@@ -1500,8 +1503,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'R-Trigger: Lift lamp'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 7fac8f8a389a1a84bbf4602f5e705f9e, type: 2}
+  m_sharedMaterial: {fileID: -7352720031533014546, guid: 7fac8f8a389a1a84bbf4602f5e705f9e,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
