@@ -21,9 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9a5fc724-8db1-44c0-80e9-0ddaaabf67a2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GGJ2022/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GGJ2022/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level_Large.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level_Large.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main01.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main01.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EndDoor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EndDoor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Scripts/Components/MouseLook.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Easy Character Movement/Scripts/Components/MouseLook.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +42,7 @@
                 <list>
                   <RecentBranch>
                     <option name="branchName" value="master" />
-                    <option name="lastUsedInstant" value="1643464835" />
+                    <option name="lastUsedInstant" value="1643548013" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="feature/menu" />
@@ -89,6 +87,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu/HoverSound.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TextAppearAfterSeconds.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptedEvents/SpawnObjEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/dev/GGJ2022/Assets/Scenes/Main01.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerStamina.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock://C:/dev/GGJ2022/Assets/Prefabs/Player.prefab" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -125,6 +124,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerSteps.cs" />
         <option value="$PROJECT_DIR$/Assets/Prefabs/Level_Large.prefab" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EndDoor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Easy Character Movement/Scripts/Components/MouseLook.cs" />
       </list>
     </option>
   </component>

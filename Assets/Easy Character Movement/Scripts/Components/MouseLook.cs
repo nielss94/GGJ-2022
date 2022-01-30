@@ -177,7 +177,11 @@ namespace ECM.Components
         {
             var yaw = Input.GetAxis("Mouse X") * lateralSensitivity;
             var pitch = Input.GetAxis("Mouse Y") * verticalSensitivity;
-
+            if (FindObjectOfType<Player>().dead)
+            {
+                yaw = 0;
+                pitch = 0;
+            }
             var yawRotation = Quaternion.Euler(0.0f, yaw, 0.0f);
             var pitchRotation = Quaternion.Euler(-pitch, 0.0f, 0.0f);
 
