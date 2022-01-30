@@ -9,13 +9,16 @@ using Vector3 = UnityEngine.Vector3;
 public class CatAggro : MonoBehaviour {
     public event Action onChaseStarted = delegate {  };
     public event Action onChaseEnded = delegate {  };
+    public event Action onDetection = delegate {  };
 
     [SerializeField] private float chaseEnergySeconds = 5;
     [SerializeField] private float chaseCooldownSeconds = 5;
     [SerializeField] private float chaseSpeedMultiplier = 2;
     [SerializeField] private float chaseAngularSpeedMultiplier = 3;
+    [SerializeField] private float shakeDurationSeconds;
     
     [SerializeField] private bool isChasing = false;
+    [SerializeField] private bool isShaking = false;
     [SerializeField] private bool cooldownActive = false;
     [SerializeField] private float currentChaseEnergy;
     private NavMeshAgent navAgent;
@@ -31,20 +34,29 @@ public class CatAggro : MonoBehaviour {
         navAgentBaseAngularSpeed = navAgent.angularSpeed;
     }
 
-    public void StartChasing() {
-        if (!CanChase()) {
+    public IEnumerator StartChasing() {
+        if (isChasing && !isShaking) {
             RefreshChaseEnergy();
-            return;
+            yield break;
+        }
+
+        if (!isShaking && !isChasing) {
+            onDetection.Invoke();
+            isShaking = true;
+            yield return new WaitForSeconds(shakeDurationSeconds);
+            isShaking = false;
+            
+            isChasing = true;
+            
+            navAgent.speed = navAgentBaseSpeed * chaseSpeedMultiplier;
+            navAgent.angularSpeed = navAgentBaseAngularSpeed * chaseAngularSpeedMultiplier;
+
+            currentChaseEnergy = chaseEnergySeconds;
+            onChaseStarted.Invoke();
+            StartCoroutine(ChaseEnergyTimer());
+            yield return null;
         } 
         
-        isChasing = true;
-        onChaseStarted.Invoke();
-        
-        navAgent.speed = navAgentBaseSpeed * chaseSpeedMultiplier;
-        navAgent.angularSpeed = navAgentBaseAngularSpeed * chaseAngularSpeedMultiplier;
-
-        currentChaseEnergy = chaseEnergySeconds;
-        StartCoroutine(ChaseEnergyTimer());
     }
 
     public bool IsChasing() {
@@ -78,8 +90,14 @@ public class CatAggro : MonoBehaviour {
             currentChaseEnergy -= Time.deltaTime;
             yield return null;
         }
-        
+
         StopChasing();
+    }
+
+    private IEnumerator ShakeTimer() {
+        isShaking = true;
+        yield return new WaitForSeconds(shakeDurationSeconds);
+        isShaking = false;
     }
 
     private IEnumerator ChaseCooldown() {
@@ -98,7 +116,7 @@ public class CatAggro : MonoBehaviour {
                                 ( transform.position + ( Vector3.up * catHeight ) );
                 if (Physics.Raycast(transform.position + Vector3.up * catHeight, direction, out RaycastHit hit)) {
                     if (hit.transform.CompareTag("Player")) {
-                        StartChasing();
+                        StartCoroutine(StartChasing());
                     }
                 }
             }

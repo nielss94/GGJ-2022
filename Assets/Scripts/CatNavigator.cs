@@ -21,6 +21,7 @@ public class CatNavigator : MonoBehaviour {
     private Player playerTarget;
     [SerializeField] private GameObject currentTarget;
     private CatAggro catAggro;
+    private Coroutine navigateRoutine;
 
     private void Awake() {
         this.navAgent = GetComponent<NavMeshAgent>();
@@ -49,7 +50,7 @@ public class CatNavigator : MonoBehaviour {
         } else if (currentNavMethod == NavMethod.Patrol) {
             NavigateNextPatrol();
         } else if (currentNavMethod == NavMethod.Chase) {
-            StartCoroutine(ChaseRoutine());
+            navigateRoutine = StartCoroutine(ChaseRoutine());
         }
     }
 
@@ -101,5 +102,6 @@ public class CatNavigator : MonoBehaviour {
     private void OnDisable() {
         catAggro.onChaseStarted -= ActivateChase;
         catAggro.onChaseEnded -= EndChase;
+        if (navigateRoutine != null) StopCoroutine(navigateRoutine);
     }
 }

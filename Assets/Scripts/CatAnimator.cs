@@ -25,6 +25,7 @@ public class CatAnimator : MonoBehaviour {
 
         catAggro.onChaseStarted += ActivateChase;
         catAggro.onChaseEnded += DeactivateChase;
+        catAggro.onDetection += StartShake;
         player.onDeath += TriggerDeath;
     }
 
@@ -38,6 +39,10 @@ public class CatAnimator : MonoBehaviour {
         }
         
         animator.SetFloat("velocity", navAgent.velocity.magnitude);
+    }
+
+    private void StartShake() {
+        animator.SetTrigger("shake");
     }
 
     private void ActivateChase() {

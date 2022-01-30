@@ -38,7 +38,7 @@ public class CatAudio : MonoBehaviour
 
     private void Start()
     {
-        _catAggro.onChaseStarted += ChaseStarted;
+        _catAggro.onDetection += ChaseStarted;
         _catAggro.onChaseEnded += ChaseEnded;
         
         chaseCooldown = Random.Range(chaseCooldownMin, chaseCooldownMax);

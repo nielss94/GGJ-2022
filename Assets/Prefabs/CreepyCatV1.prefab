@@ -129,7 +129,9 @@ MonoBehaviour:
   chaseCooldownSeconds: 0
   chaseSpeedMultiplier: 3
   chaseAngularSpeedMultiplier: 6
+  shakeDurationSeconds: 1
   isChasing: 0
+  isShaking: 0
   cooldownActive: 0
   currentChaseEnergy: 0
 --- !u!114 &6114506497861109888
@@ -145,7 +147,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   catEyesModel: {fileID: 8558107363216613392}
-  passiveMaterial: {fileID: 2100000, guid: 7f98113118ac2354ead39c8ef1205bae, type: 2}
+  passiveMaterial: {fileID: 2100000, guid: 14f267bdd896a7c42871be5f5e200ae8, type: 2}
   activeMaterial: {fileID: 2100000, guid: 14f267bdd896a7c42871be5f5e200ae8, type: 2}
 --- !u!114 &4759548844822801759
 MonoBehaviour:
