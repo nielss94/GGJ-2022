@@ -12584,6 +12584,46 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 7228218006921313502, guid: a0adab9744a618d4f9b3a6bb6549a7f5,
+        type: 3}
+      propertyPath: m_AABB.m_Extent.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7228218006921313502, guid: a0adab9744a618d4f9b3a6bb6549a7f5,
+        type: 3}
+      propertyPath: m_AABB.m_Extent.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7228218006921313502, guid: a0adab9744a618d4f9b3a6bb6549a7f5,
+        type: 3}
+      propertyPath: m_AABB.m_Extent.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7228218006921313502, guid: a0adab9744a618d4f9b3a6bb6549a7f5,
+        type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7769928807867487010, guid: a0adab9744a618d4f9b3a6bb6549a7f5,
+        type: 3}
+      propertyPath: m_AABB.m_Extent.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7769928807867487010, guid: a0adab9744a618d4f9b3a6bb6549a7f5,
+        type: 3}
+      propertyPath: m_AABB.m_Extent.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7769928807867487010, guid: a0adab9744a618d4f9b3a6bb6549a7f5,
+        type: 3}
+      propertyPath: m_AABB.m_Extent.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7769928807867487010, guid: a0adab9744a618d4f9b3a6bb6549a7f5,
+        type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a0adab9744a618d4f9b3a6bb6549a7f5, type: 3}
 --- !u!1001 &661742611
@@ -12672,7 +12712,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1102792334
 MonoBehaviour:
   m_ObjectHideFlags: 0
