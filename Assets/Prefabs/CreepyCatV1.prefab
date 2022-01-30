@@ -127,7 +127,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   chaseEnergySeconds: 5
   chaseCooldownSeconds: 0
-  chaseSpeedMultiplier: 3
+  chaseSpeedMultiplier: 4
   chaseAngularSpeedMultiplier: 6
   shakeDurationSeconds: 1
   isChasing: 0
