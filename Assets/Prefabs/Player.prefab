@@ -147,6 +147,7 @@ GameObject:
   - component: {fileID: 4514214664101902450}
   - component: {fileID: 340583976327646500}
   - component: {fileID: 1995181022}
+  - component: {fileID: 1233427664}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -478,6 +479,31 @@ MonoBehaviour:
       enableFptlForForwardOpaque: 0
       enableBigTilePrepass: 0
       isFptlEnabled: 0
+--- !u!169 &1233427664
+AudioLowPassFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4546946627986672122}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_LowpassResonanceQ: 1
+  lowpassLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.22727273
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &4547498861339352916
 GameObject:
   m_ObjectHideFlags: 0
@@ -645,8 +671,8 @@ MonoBehaviour:
   _smooth: 0
   _smoothTime: 5
   _clampPitch: 1
-  _minPitchAngle: -90
-  _maxPitchAngle: 90
+  _minPitchAngle: -45
+  _maxPitchAngle: 45
 --- !u!114 &4506664732293665812
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1089,30 +1115,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6800875834516337232}
     m_Modifications:
+    - target: {fileID: 921905625268019126, guid: 24eb3f7a9d6d91e4db5d7b86cc1059ee,
+        type: 3}
+      propertyPath: bigCone
+      value: 
+      objectReference: {fileID: 8059755135079999466}
+    - target: {fileID: 921905625268019126, guid: 24eb3f7a9d6d91e4db5d7b86cc1059ee,
+        type: 3}
+      propertyPath: smallCone
+      value: 
+      objectReference: {fileID: 3290430521253931495}
+    - target: {fileID: 921905625268019126, guid: 24eb3f7a9d6d91e4db5d7b86cc1059ee,
+        type: 3}
+      propertyPath: lampAnimator
+      value: 
+      objectReference: {fileID: 5866666020633074694}
     - target: {fileID: 1179171364141422161, guid: 24eb3f7a9d6d91e4db5d7b86cc1059ee,
         type: 3}
       propertyPath: m_Name
       value: Lamp
       objectReference: {fileID: 0}
-    - target: {fileID: 2731068043736083646, guid: 24eb3f7a9d6d91e4db5d7b86cc1059ee,
+    - target: {fileID: 2731068043568664361, guid: 24eb3f7a9d6d91e4db5d7b86cc1059ee,
         type: 3}
-      propertyPath: m_Name
-      value: Flashlight Ambient Point Light Use No Longer
-      objectReference: {fileID: 0}
-    - target: {fileID: 2731068043736083646, guid: 24eb3f7a9d6d91e4db5d7b86cc1059ee,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3723311485381821782, guid: 24eb3f7a9d6d91e4db5d7b86cc1059ee,
-        type: 3}
-      propertyPath: m_Name
-      value: FireLight Point Light Use no longer
-      objectReference: {fileID: 0}
-    - target: {fileID: 3723311485381821782, guid: 24eb3f7a9d6d91e4db5d7b86cc1059ee,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
+      propertyPath: m_Range
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6374647277693886208, guid: 24eb3f7a9d6d91e4db5d7b86cc1059ee,
         type: 3}
@@ -1171,6 +1197,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 24eb3f7a9d6d91e4db5d7b86cc1059ee, type: 3}
+--- !u!1 &3290430521253931495 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3290430521166191142, guid: 24eb3f7a9d6d91e4db5d7b86cc1059ee,
+    type: 3}
+  m_PrefabInstance: {fileID: 222786497}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8059755135079999466 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8059755135000482859, guid: 24eb3f7a9d6d91e4db5d7b86cc1059ee,
+    type: 3}
+  m_PrefabInstance: {fileID: 222786497}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1416683927
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1340,6 +1378,36 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7228218008199535945, guid: 0e0c75dbcea59c4459e9f8ec698aa7a5,
         type: 3}
+      propertyPath: m_AABB.m_Center.x
+      value: -0.40012655
+      objectReference: {fileID: 0}
+    - target: {fileID: 7228218008199535945, guid: 0e0c75dbcea59c4459e9f8ec698aa7a5,
+        type: 3}
+      propertyPath: m_AABB.m_Center.y
+      value: -0.44039738
+      objectReference: {fileID: 0}
+    - target: {fileID: 7228218008199535945, guid: 0e0c75dbcea59c4459e9f8ec698aa7a5,
+        type: 3}
+      propertyPath: m_AABB.m_Center.z
+      value: -0.07728982
+      objectReference: {fileID: 0}
+    - target: {fileID: 7228218008199535945, guid: 0e0c75dbcea59c4459e9f8ec698aa7a5,
+        type: 3}
+      propertyPath: m_AABB.m_Extent.x
+      value: 1.3568333
+      objectReference: {fileID: 0}
+    - target: {fileID: 7228218008199535945, guid: 0e0c75dbcea59c4459e9f8ec698aa7a5,
+        type: 3}
+      propertyPath: m_AABB.m_Extent.y
+      value: 0.8138937
+      objectReference: {fileID: 0}
+    - target: {fileID: 7228218008199535945, guid: 0e0c75dbcea59c4459e9f8ec698aa7a5,
+        type: 3}
+      propertyPath: m_AABB.m_Extent.z
+      value: 1.9968956
+      objectReference: {fileID: 0}
+    - target: {fileID: 7228218008199535945, guid: 0e0c75dbcea59c4459e9f8ec698aa7a5,
+        type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 897dbff398c27984285c99cffd6c775b, type: 2}
@@ -1348,6 +1416,12 @@ PrefabInstance:
 --- !u!4 &543450652291729020 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 0e0c75dbcea59c4459e9f8ec698aa7a5,
+    type: 3}
+  m_PrefabInstance: {fileID: 1416683927}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &5866666020633074694 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: 0e0c75dbcea59c4459e9f8ec698aa7a5,
     type: 3}
   m_PrefabInstance: {fileID: 1416683927}
   m_PrefabAsset: {fileID: 0}

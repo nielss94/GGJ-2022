@@ -7,6 +7,15 @@
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="DynamicBone" t="Include">
+          <e p="readme.txt" t="Include" />
+          <e p="Scripts" t="Include">
+            <e p="DynamicBone.cs" t="Include" />
+            <e p="DynamicBoneCollider.cs" t="Include" />
+            <e p="DynamicBoneColliderBase.cs" t="Include" />
+            <e p="DynamicBonePlaneCollider.cs" t="Include" />
+          </e>
+        </e>
         <e p="Easy Character Movement" t="Include">
           <e p="Scripts" t="Include">
             <e p="@Obsolete" t="Include">
@@ -85,6 +94,7 @@
           <e p="AudioManager.cs" t="Include" />
           <e p="CatAggro.cs" t="Include" />
           <e p="CatAudio.cs" t="Include" />
+          <e p="CatEyes.cs" t="Include" />
           <e p="CatNavigator.cs" t="Include" />
           <e p="DarthFader.cs" t="Include" />
           <e p="DoorGem.cs" t="Include" />
