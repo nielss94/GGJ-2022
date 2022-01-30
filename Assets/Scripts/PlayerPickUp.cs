@@ -38,6 +38,7 @@ public class PlayerPickUp : MonoBehaviour
                     gem.PickUp();
                     Destroy(gem.gameObject);
                     _playerInventory.gems++;
+                    _playerInventory.AddToTotalGems(_playerInventory.gems);
                     hover = null;
                 }
             }
