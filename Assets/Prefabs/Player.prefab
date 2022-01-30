@@ -822,7 +822,7 @@ MonoBehaviour:
   maxStamina: 100
   stamina: 0
   cooldownAfterMaxStamina: 10
-  staminaPerSecond: 4
+  staminaPerSecond: 8
   regenStaminaAfterSeconds: 2
   regenStaminaPerSeconds: 10
   currentStaminaStage:

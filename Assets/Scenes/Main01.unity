@@ -1424,12 +1424,12 @@ MonoBehaviour:
   - {fileID: 382694450}
   - {fileID: 713287648}
   - {fileID: 2073540383}
-  text1: {fileID: 382694450}
-  text2: {fileID: 713287648}
-  text3: {fileID: 2073540383}
+  text1: {fileID: 0}
+  text2: {fileID: 0}
+  text3: {fileID: 0}
   seconds: 10
-  disappearAfter: 1
-  disappearAfterSeconds: 3
+  disappearAfter: 0
+  disappearAfterSeconds: 0
   setText: 0
 --- !u!114 &2031871546 stripped
 MonoBehaviour:
