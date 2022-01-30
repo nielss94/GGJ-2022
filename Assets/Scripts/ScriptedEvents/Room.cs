@@ -23,10 +23,12 @@ public class Room : MonoBehaviour
     public float moveSpeed;
     public Vector3 moveAmount;
     private Vector3 moveDestination;
-
+    private Vector3 origin;
     private bool active;
     private bool wasActivated;
-
+    public bool returnToOriginAfterSeconds = false;
+    public float returnAfterSeconds = 2f;
+    private bool moveBackToOrigin = false;
     [Header("Spawn Object")] 
     public GameObject spawnObject;
     public AudioClip onSpawnAudio;
@@ -63,11 +65,31 @@ public class Room : MonoBehaviour
                 if (Vector3.Distance(moveObject.position, moveDestination) < .1f)
                 {
                     active = false;
+                    if (returnToOriginAfterSeconds)
+                    {
+                        StartCoroutine(ReturnAfterSeconds(returnAfterSeconds));
+                    }
                 }
+            }
+        }
+
+        if (moveBackToOrigin)
+        {
+            moveObject.position = Vector3.Lerp(moveObject.position,origin, moveSpeed * Time.deltaTime);
+
+            if (Vector3.Distance(moveObject.position, origin) < .1f)
+            {
+                moveBackToOrigin = false;
             }
         }
     }
 
+    private IEnumerator ReturnAfterSeconds(float t)
+    {
+        yield return new WaitForSeconds(t);
+        moveBackToOrigin = true;
+    }
+    
     private void ToggleInside()
     {
         inside = !inside;
@@ -84,6 +106,8 @@ public class Room : MonoBehaviour
                 _audioManager.PlayOneShot(onMoveAudio, moveObject.transform.position, 1);
                 moveDestination = new Vector3(moveObject.position.x + moveAmount.x, moveObject.position.y + moveAmount.y,
                     moveObject.position.z + moveAmount.z);
+                origin = new Vector3(moveObject.position.x, moveObject.position.y,
+                    moveObject.position.z);
             }
 
             if (spawnObject)
