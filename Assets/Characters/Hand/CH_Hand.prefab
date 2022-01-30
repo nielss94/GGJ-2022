@@ -52,7 +52,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 897dbff398c27984285c99cffd6c775b, type: 2}
+  - {fileID: 2100000, guid: c9e28ee8491e1ce47973063a8edbf252, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -89,7 +89,7 @@ SkinnedMeshRenderer:
   m_RootBone: {fileID: 6777974607261633583}
   m_AABB:
     m_Center: {x: -0.40031672, y: -0.40415365, z: -0.15836331}
-    m_Extent: {x: 0.20285393, y: 0.22824913, z: 0.24192286}
+    m_Extent: {x: 1, y: 1, z: 1}
   m_DirtyAABB: 0
 --- !u!1 &4227526195965150017
 GameObject:
@@ -307,7 +307,7 @@ SkinnedMeshRenderer:
   m_RootBone: {fileID: 6777974607261633583}
   m_AABB:
     m_Center: {x: -0.2869997, y: -0.15414307, z: -0.042952493}
-    m_Extent: {x: 0.35114503, y: 0.2598897, z: 0.22103246}
+    m_Extent: {x: 1, y: 1, z: 1}
   m_DirtyAABB: 0
 --- !u!1 &6557443671297130667
 GameObject:

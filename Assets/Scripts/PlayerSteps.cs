@@ -41,7 +41,7 @@ public class PlayerSteps : MonoBehaviour
             {
                 if (Time.time > lastStep + runInterval)
                 {
-                    PlayOneShot(StepType.STONE, .8f);
+                    PlayOneShot(StepType.STONE, .7f);
                     float t = Random.Range(0.2f, 0.3f);
                     StartCoroutine(PlayLamp(t, true));
                 }
@@ -50,7 +50,7 @@ public class PlayerSteps : MonoBehaviour
             {
                 if (Time.time > lastStep + walkInterval)
                 {
-                    PlayOneShot(StepType.STONE, 0.5f);
+                    PlayOneShot(StepType.STONE, 0.3f);
                     float t = Random.Range(0.25f, 0.45f);
                     StartCoroutine(PlayLamp(t, false));
                 }

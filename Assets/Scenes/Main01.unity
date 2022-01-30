@@ -192,27 +192,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6bc5da8fd29fdfd4b868f215166c955d, type: 3}
---- !u!1 &183591319 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8920339543429620509, guid: 6bc5da8fd29fdfd4b868f215166c955d,
-    type: 3}
-  m_PrefabInstance: {fileID: 183591318}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &183591320
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 183591319}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9789e52acfd8c334c837e9cf173b6d68, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gemSlots: []
-  placeGemSound: {fileID: 0}
-  doorGem: {fileID: 0}
 --- !u!1 &185019792
 GameObject:
   m_ObjectHideFlags: 0
@@ -356,6 +335,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1847386516, guid: a0adab9744a618d4f9b3a6bb6549a7f5, type: 3}
+      propertyPath: gems
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1847386516, guid: a0adab9744a618d4f9b3a6bb6549a7f5, type: 3}
+      propertyPath: totalGems
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4544411343771637754, guid: a0adab9744a618d4f9b3a6bb6549a7f5,
         type: 3}
       propertyPath: m_RootOrder
@@ -364,17 +351,17 @@ PrefabInstance:
     - target: {fileID: 4544411343771637754, guid: a0adab9744a618d4f9b3a6bb6549a7f5,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 94.72
+      value: 94.7
       objectReference: {fileID: 0}
     - target: {fileID: 4544411343771637754, guid: a0adab9744a618d4f9b3a6bb6549a7f5,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.3999999
+      value: 1.309
       objectReference: {fileID: 0}
     - target: {fileID: 4544411343771637754, guid: a0adab9744a618d4f9b3a6bb6549a7f5,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 9.2
+      value: 8.869
       objectReference: {fileID: 0}
     - target: {fileID: 4544411343771637754, guid: a0adab9744a618d4f9b3a6bb6549a7f5,
         type: 3}
@@ -882,6 +869,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9107495336012062340, guid: 0866844413af9914d9a04463413eb853,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: bccec2ec95df33247b6b2386b77c4864, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0866844413af9914d9a04463413eb853, type: 3}
 --- !u!1 &1208500511 stripped
