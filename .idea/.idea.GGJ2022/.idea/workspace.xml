@@ -20,8 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a5fc724-8db1-44c0-80e9-0ddaaabf67a2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GGJ2022/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GGJ2022/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Fonts/DALEK___ SDF.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Fonts/DALEK___ SDF.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Altar.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Altar.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/EndingScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/EndingScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main01.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main01.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,11 +94,13 @@
     <setting file="mock://C:/dev/GGJ2022/Assets/UI/Logo_Catacomb-SeeNoEvil.png.meta" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerSteps.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock://C:/dev/GGJ2022/Assets/Prefabs/Level_Large.prefab" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/dev/GGJ2022/Assets/Prefabs/Altar.prefab" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu/HoverSound.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock://C:/dev/GGJ2022/UserSettings/EditorUserSettings.asset" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TextAppearAfterSeconds.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptedEvents/SpawnObjEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/dev/GGJ2022/Assets/Scenes/EndingScene.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/dev/GGJ2022/Assets/Scenes/Main01.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerStamina.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock://C:/dev/GGJ2022/Assets/Prefabs/Player.prefab" root0="SKIP_HIGHLIGHTING" />
@@ -262,14 +268,14 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="184" y="98" key="MergeDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1643542159391" />
-    <state x="598" y="341" key="MultipleFileMergeDialog" timestamp="1643553900749">
+    <state x="598" y="341" key="MultipleFileMergeDialog" timestamp="1643563062226">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="598" y="341" key="MultipleFileMergeDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1643553900749" />
-    <state x="788" y="290" key="RollbackChangesDialog" timestamp="1643542392133">
+    <state x="598" y="341" key="MultipleFileMergeDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1643563062226" />
+    <state x="788" y="290" key="RollbackChangesDialog" timestamp="1643563040195">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="788" y="290" key="RollbackChangesDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1643542392133" />
+    <state x="788" y="290" key="RollbackChangesDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1643563040195" />
     <state x="461" y="224" key="SettingsEditor" timestamp="1643410267284">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
