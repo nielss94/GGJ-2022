@@ -285,6 +285,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FlashlightPrefab
       objectReference: {fileID: 0}
+    - target: {fileID: 5273132098971169524, guid: 06beb078ef8d76e41bd0a30ca50a789e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 06beb078ef8d76e41bd0a30ca50a789e, type: 3}
 --- !u!4 &2731068042847990878 stripped
