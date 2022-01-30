@@ -40,14 +40,14 @@ public class PlayerLamp : MonoBehaviour
         {
             if (r.NextDouble() < .7f)
             {
-                _audioManager.PlayOneShot(lampChainSounds[curChainIndex], transform.position, 1, .8f);
+                _audioManager.PlayOneShot(lampChainSounds[curChainIndex], transform.position, 1, .5f);
             }
         }
         
         
         if (r.NextDouble() < .6f)
         {
-            _audioManager.PlayOneShot(lampSqueekSounds[curSqueekIndex], transform.position, 1, .8f);
+            _audioManager.PlayOneShot(lampSqueekSounds[curSqueekIndex], transform.position, 1, .4f);
         }
         
         curChainIndex++;
