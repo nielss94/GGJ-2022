@@ -160,6 +160,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stationaryThresholdSpeed: 0.3
+  jumpscareOffset: 1.5
+  catPrefab: {fileID: 3594791645639771397}
 --- !u!114 &3084780746900419054
 MonoBehaviour:
   m_ObjectHideFlags: 0

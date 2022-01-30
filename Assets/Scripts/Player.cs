@@ -12,7 +12,7 @@ public class Player : MonoBehaviour
     public List<AudioClip> death = new List<AudioClip>();
     public bool dead = false;
 
-    public event Action onDeath;
+    public event Action<GameObject> onDeath;
 
     private DarthFader _darthFader;
 
@@ -30,10 +30,10 @@ public class Player : MonoBehaviour
         // Instantiate(playerLamp, lampPos.position, lampPos.rotation);
     }
 
-    public void Die()
+    public void Die(GameObject killer)
     {
         dead = true;
-        onDeath.Invoke();
+        onDeath.Invoke(killer);
         FindObjectOfType<AudioManager>().PlayOneShot(death[Random.Range(0, death.Count)]);
         StartCoroutine(WaitAndReloadScene());
     }
