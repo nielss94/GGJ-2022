@@ -91,7 +91,7 @@ public class CatAudio : MonoBehaviour
     private void Kill(Player player)
     {
         _audioManager.PlayOneShot(jumpScare, transform.position, 1, 1, transform);
-        player.Die();
+        player.Die(this.gameObject);
     }
 
     private void ChaseStarted()

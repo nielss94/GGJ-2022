@@ -19,12 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a5fc724-8db1-44c0-80e9-0ddaaabf67a2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GGJ2022/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GGJ2022/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GGJ2022/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GGJ2022/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DarthFader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DarthFader.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EndDoor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EndDoor.cs" afterDir="false" />
-    </list>
+    <list default="true" id="9a5fc724-8db1-44c0-80e9-0ddaaabf67a2" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,6 +59,7 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/dev/GGJ2022/Assets/UI/Logo_Catacomb-SeeNoEvil.png.meta" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/898AF1AF-8CCF-490A-906C-218E1E74B230/91/60f8aa68/Random.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/dev/GGJ2022/UserSettings/EditorUserSettings.asset" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/dev/GGJ2022/Assets/Scenes/Main01.unity" root0="SKIP_HIGHLIGHTING" />
@@ -86,6 +82,8 @@
     <setting file="mock://C:/dev/GGJ2022/Assets/Prefabs/CreepyCatV1.prefab" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/95F13B52-8E48-4EBD-BA8E-37E942F4ABB2/27/b7567323/AudioSource.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/dev/GGJ2022/Assets/Characters/Hand/CH_Hand.fbx.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/dev/GGJ2022/Assets/UI/Logo_Catacomb-SeeNoEvil.png.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/dev/GGJ2022/Assets/UI/Logo_Catacomb-SeeNoEvil.png.meta" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerSteps.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock://C:/dev/GGJ2022/Assets/Prefabs/Level_Large.prefab" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
@@ -249,10 +247,10 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="184" y="98" key="MergeDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1643542159391" />
-    <state x="598" y="341" key="MultipleFileMergeDialog" timestamp="1643553150144">
+    <state x="598" y="341" key="MultipleFileMergeDialog" timestamp="1643553900749">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="598" y="341" key="MultipleFileMergeDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1643553150144" />
+    <state x="598" y="341" key="MultipleFileMergeDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1643553900749" />
     <state x="788" y="290" key="RollbackChangesDialog" timestamp="1643542392133">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
