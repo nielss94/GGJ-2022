@@ -19,7 +19,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a5fc724-8db1-44c0-80e9-0ddaaabf67a2" name="Default Changelist" comment="" />
+    <list default="true" id="9a5fc724-8db1-44c0-80e9-0ddaaabf67a2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GGJ2022/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GGJ2022/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/AudioManager.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/AudioManager.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main01.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main01.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AudioManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AudioManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerInventory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerInventory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerPickUp.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerPickUp.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,29 +67,33 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/898AF1AF-8CCF-490A-906C-218E1E74B230/91/60f8aa68/Random.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/dev/GGJ2022/UserSettings/EditorUserSettings.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptedEvents/AudioEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerLampCollider.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CatAggro.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/dev/GGJ2022/Assets/Prefabs/Player.prefab" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/dev/GGJ2022/Assets/Prefabs/EndDoor.prefab" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/897C4228-2E78-4C7F-B2C1-FA92E1FEEF09/38/5d5efd60/Input.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EndDoor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerLamp.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerInventory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/dev/GGJ2022/Assets/Scenes/Niels.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerPickUp.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu/ClickToStart.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock://C:/dev/GGJ2022/Assets/Scenes/Chris/Chris2.unity" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/898AF1AF-8CCF-490A-906C-218E1E74B230/91/60f8aa68/Random.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/dev/GGJ2022/Assets/Scripts/Player.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptedEvents/TriggerEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DarthFader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock://C:/dev/GGJ2022/Assets/Scripts/AudioManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/95F13B52-8E48-4EBD-BA8E-37E942F4ABB2/27/b7567323/AudioSource.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptedEvents/AudioEvent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerLampCollider.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CatAggro.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/dev/GGJ2022/UserSettings/EditorUserSettings.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/dev/GGJ2022/UserSettings/EditorUserSettings.asset" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerSteps.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/dev/GGJ2022/Assets/Prefabs/Player.prefab" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/dev/GGJ2022/Assets/Scenes/Niels.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu/HoverSound.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/dev/GGJ2022/Assets/Prefabs/EndDoor.prefab" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TextAppearAfterSeconds.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/897C4228-2E78-4C7F-B2C1-FA92E1FEEF09/38/5d5efd60/Input.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EndDoor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerLamp.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptedEvents/SpawnObjEvent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerInventory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerStamina.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -89,8 +101,6 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Easy Character Movement/Scripts/Controllers/BaseCharacterController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/IPickUp.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Gem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerInventory.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerLampCollider.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptedEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptedEvents/MoveToObjEvent.cs" />
@@ -98,7 +108,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/GemSlot.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DoorGem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AudioClipPlayer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerPickUp.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerStamina.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptedEvents/TriggerEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptedEvents/ScriptedEvent.cs" />
@@ -110,12 +119,15 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/TextAppearAfterSeconds.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerLamp.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerSteps.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/AudioManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Easy Character Movement/Scripts/Controllers/BaseFirstPersonController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CatAudio.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/EndDoor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DarthFader.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CatAudio.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Easy Character Movement/Scripts/Controllers/BaseFirstPersonController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EndDoor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerPickUp.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerInventory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AudioManager.cs" />
       </list>
     </option>
   </component>
@@ -177,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643419940411</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="àsd">
+      <created>1643494811900</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1643494811900</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -203,7 +222,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="more" />
-    <option name="LAST_COMMIT_MESSAGE" value="more" />
+    <MESSAGE value="àsd" />
+    <option name="LAST_COMMIT_MESSAGE" value="àsd" />
   </component>
   <component name="WindowStateProjectService">
     <state x="598" y="341" key="MultipleFileMergeDialog" timestamp="1643476437193">
@@ -222,10 +242,14 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="92" y="92" width="1736" height="976" key="VCS.FileHistoryDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1643460227784" />
-    <state x="552" y="299" key="Vcs.Push.Dialog.v2" timestamp="1643419942001">
+    <state x="552" y="299" key="Vcs.Push.Dialog.v2" timestamp="1643494827145">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="552" y="299" key="Vcs.Push.Dialog.v2/0.0.1920.1160@0.0.1920.1160" timestamp="1643419942001" />
+    <state x="552" y="299" key="Vcs.Push.Dialog.v2/0.0.1920.1160@0.0.1920.1160" timestamp="1643494827145" />
+    <state x="616" y="270" key="run.anything.popup" timestamp="1643501382617">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="616" y="270" key="run.anything.popup/0.0.1920.1160@0.0.1920.1160" timestamp="1643501382617" />
     <state x="623" y="255" width="672" height="678" key="search.everywhere.popup" timestamp="1643425563881">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
