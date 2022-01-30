@@ -72,17 +72,14 @@ public class CatAudio : MonoBehaviour
                 if (Vector3.Distance(player.transform.position, transform.position) < 5)
                 {
                     _audioManager.PlayOneShot(breathSounds[0], transform.position, 1, 1, transform);
-                    Debug.Log("close");
                 }
                 else if (Vector3.Distance(player.transform.position, transform.position) < 10)
                 {
                     _audioManager.PlayOneShot(breathSounds[1], transform.position, 1, 1, transform);
-                    Debug.Log("med");
                 }
                 else
                 {
                     _audioManager.PlayOneShot(breathSounds[2], transform.position, 1, 1, transform);
-                    Debug.Log("far");
                 }
 
                 breathCooldown = Random.Range(breathCooldownMin, breathCooldownMax);

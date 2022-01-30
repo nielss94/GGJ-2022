@@ -3,22 +3,41 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Numerics;
 using UnityEngine;
+using UnityEngine.AI;
 using Vector3 = UnityEngine.Vector3;
 
 public class CatAggro : MonoBehaviour {
     public event Action onChaseStarted = delegate {  };
     public event Action onChaseEnded = delegate {  };
 
-    [SerializeField] private float chaseEnergySeconds;
-    [SerializeField] private float chaseCooldownSeconds;
+    [SerializeField] private float chaseEnergySeconds = 5;
+    [SerializeField] private float chaseCooldownSeconds = 5;
+    [SerializeField] private float chaseSpeedMultiplier = 2;
+    [SerializeField] private float chaseAngularSpeedMultiplier = 3;
     
     [SerializeField] private bool isChasing = false;
     [SerializeField] private bool cooldownActive = false;
+    private NavMeshAgent navAgent;
+    private float navAgentBaseSpeed;
+    private float navAgentBaseAngularSpeed;
+
+    private void Awake() {
+        if (TryGetComponent(out NavMeshAgent agent)) {
+            navAgent = agent;
+        }
+
+        navAgentBaseSpeed = navAgent.speed;
+        navAgentBaseAngularSpeed = navAgent.angularSpeed;
+    }
 
     public void StartChasing() {
         if (!CanChase()) return;
         isChasing = true;
         onChaseStarted.Invoke();
+        
+        navAgent.speed = navAgentBaseSpeed * chaseSpeedMultiplier;
+        navAgent.angularSpeed = navAgentBaseAngularSpeed * chaseAngularSpeedMultiplier;
+        
         StartCoroutine(ChaseEnergyTimer());
     }
 
@@ -37,6 +56,10 @@ public class CatAggro : MonoBehaviour {
     public void StopChasing() {
         isChasing = false;
         onChaseEnded.Invoke();
+        
+        navAgent.speed = navAgentBaseSpeed;
+        navAgent.angularSpeed = navAgentBaseAngularSpeed;
+        
         StartCoroutine(ChaseCooldown());
     }
 
