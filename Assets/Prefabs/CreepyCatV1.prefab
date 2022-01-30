@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 3594791645639771395}
   - component: {fileID: 3594791645639771393}
   - component: {fileID: 3385633914449841497}
+  - component: {fileID: 6114506497861109888}
   - component: {fileID: 3084780746900419054}
   m_Layer: 0
   m_Name: CreepyCatV1
@@ -49,9 +50,9 @@ NavMeshAgent:
   m_AgentTypeID: 0
   m_Radius: 0.5
   m_Speed: 1.9
-  m_Acceleration: 0.5
+  m_Acceleration: 20
   avoidancePriority: 50
-  m_AngularSpeed: 240
+  m_AngularSpeed: 700
   m_StoppingDistance: 0.5
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
@@ -125,11 +126,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   chaseEnergySeconds: 5
   chaseCooldownSeconds: 0
-  chaseSpeedMultiplier: 4
+  chaseSpeedMultiplier: 3
   chaseAngularSpeedMultiplier: 6
   isChasing: 0
   cooldownActive: 0
   currentChaseEnergy: 0
+--- !u!114 &6114506497861109888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3594791645639771397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eb6b308e2afcff43bd2040135a7bf78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  catEyesModel: {fileID: 1721685623199753870}
+  passiveMaterial: {fileID: 2100000, guid: 7f98113118ac2354ead39c8ef1205bae, type: 2}
+  activeMaterial: {fileID: 2100000, guid: 14f267bdd896a7c42871be5f5e200ae8, type: 2}
 --- !u!114 &3084780746900419054
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -168,6 +184,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3594791645639771396}
     m_Modifications:
+    - target: {fileID: 1729491562288364347, guid: 2fff4118084246045813e0e4465e3656,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7f98113118ac2354ead39c8ef1205bae, type: 2}
     - target: {fileID: 3613791346679307167, guid: 2fff4118084246045813e0e4465e3656,
         type: 3}
       propertyPath: m_Name
@@ -230,6 +251,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2fff4118084246045813e0e4465e3656, type: 3}
+--- !u!23 &1721685623199753870 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 1729491562288364347, guid: 2fff4118084246045813e0e4465e3656,
+    type: 3}
+  m_PrefabInstance: {fileID: 1145256372935089589}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &3929901001419480208 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4137986421141209381, guid: 2fff4118084246045813e0e4465e3656,
