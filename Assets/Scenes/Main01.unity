@@ -337,11 +337,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1847386516, guid: a0adab9744a618d4f9b3a6bb6549a7f5, type: 3}
       propertyPath: gems
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1847386516, guid: a0adab9744a618d4f9b3a6bb6549a7f5, type: 3}
       propertyPath: totalGems
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4544411343771637754, guid: a0adab9744a618d4f9b3a6bb6549a7f5,
         type: 3}
@@ -869,6 +869,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9107495336012062340, guid: 0866844413af9914d9a04463413eb853,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: bccec2ec95df33247b6b2386b77c4864, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0866844413af9914d9a04463413eb853, type: 3}
 --- !u!1 &1208500511 stripped

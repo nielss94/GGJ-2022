@@ -11,6 +11,7 @@ public class EndDoor : MonoBehaviour, IPickUp
     public DoorGem doorGem;
     private AudioManager _audioManager;
 
+    public AudioClip openDoorClip;
     public Collider doorCollider;
     public Transform doorL;
     public Transform doorR;
@@ -67,9 +68,11 @@ public class EndDoor : MonoBehaviour, IPickUp
         doorOpened = true;
         DOTween.KillAll();
         Destroy(doorCollider);
+        _audioManager.PlayOneShot(openDoorClip, transform.position, 1, 1);
         doorL.DOMove(new Vector3(doorL.position.x, doorL.position.y, doorL.position.z + 1.3f), 1f);
         doorR.DOMove(new Vector3(doorR.position.x, doorR.position.y, doorR.position.z - 1.3f), 1f).OnComplete(() =>
         {
+            FindObjectOfType<DarthFader>().FadeOut();
             Debug.Log("Start cutscene");
         });
     }
