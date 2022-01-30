@@ -68,6 +68,8 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 25ec0590c06df03408e37e996a9e8522, type: 3}
   lampAnimator: {fileID: 0}
   light: {fileID: 2731068043568664361}
+  smallCone: {fileID: 3290430521166191142}
+  bigCone: {fileID: 8059755135000482859}
 --- !u!1001 &1386944591667906995
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -170,6 +172,12 @@ PrefabInstance:
 --- !u!4 &2801843204600004764 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3881345647118731567, guid: 729e383f1c4578b46bc4e60cb2a8106c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1386944591667906995}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3290430521166191142 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4509967869227111317, guid: 729e383f1c4578b46bc4e60cb2a8106c,
     type: 3}
   m_PrefabInstance: {fileID: 1386944591667906995}
   m_PrefabAsset: {fileID: 0}
@@ -485,6 +493,12 @@ MonoBehaviour:
 --- !u!4 &7246802228796051089 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3881345647118731567, guid: 729e383f1c4578b46bc4e60cb2a8106c,
+    type: 3}
+  m_PrefabInstance: {fileID: 5858232544991938494}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8059755135000482859 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4509967869227111317, guid: 729e383f1c4578b46bc4e60cb2a8106c,
     type: 3}
   m_PrefabInstance: {fileID: 5858232544991938494}
   m_PrefabAsset: {fileID: 0}
