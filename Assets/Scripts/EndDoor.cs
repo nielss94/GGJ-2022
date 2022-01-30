@@ -11,7 +11,7 @@ public class EndDoor : MonoBehaviour, IPickUp
     public DoorGem doorGem;
     private AudioManager _audioManager;
 
-    public Transform doorCollider;
+    public Collider doorCollider;
     public Transform doorL;
     public Transform doorR;
     private bool doorOpened = false;
@@ -66,7 +66,7 @@ public class EndDoor : MonoBehaviour, IPickUp
     {
         doorOpened = true;
         DOTween.KillAll();
-        Destroy(doorCollider.gameObject);
+        Destroy(doorCollider);
         doorL.DOMove(new Vector3(doorL.position.x, doorL.position.y, doorL.position.z + 1.3f), 1f);
         doorR.DOMove(new Vector3(doorR.position.x, doorR.position.y, doorR.position.z - 1.3f), 1f).OnComplete(() =>
         {
