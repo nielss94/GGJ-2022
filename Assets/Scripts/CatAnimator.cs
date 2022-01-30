@@ -8,7 +8,7 @@ using UnityEngine.AI;
 
 public class CatAnimator : MonoBehaviour {
     [SerializeField] private float stationaryThresholdSpeed = 0.3f;
-    [SerializeField] private float jumpscareOffset = 1.5f;
+    [SerializeField] private Vector3 jumpscareOffset;
     [SerializeField] private GameObject catPrefab;
     
     private Animator animator;
@@ -56,7 +56,9 @@ public class CatAnimator : MonoBehaviour {
         GetComponent<NavMeshAgent>().enabled = false;
         
         // Set cat in front of player
-        transform.position = player.transform.position + Vector3.left * jumpscareOffset;
+        transform.position = player.transform.Find("JumpscarePos").position;
+        transform.position = new Vector3(transform.position.x, 0.08f, transform.position.z);
+        transform.LookAt(player.transform.position);
 
         // Set jumpscare enabled
         animator.SetTrigger("jumpscare");
