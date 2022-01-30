@@ -147,6 +147,7 @@ GameObject:
   - component: {fileID: 4514214664101902450}
   - component: {fileID: 340583976327646500}
   - component: {fileID: 1995181022}
+  - component: {fileID: 1233427664}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -478,6 +479,31 @@ MonoBehaviour:
       enableFptlForForwardOpaque: 0
       enableBigTilePrepass: 0
       isFptlEnabled: 0
+--- !u!169 &1233427664
+AudioLowPassFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4546946627986672122}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_LowpassResonanceQ: 1
+  lowpassLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.22727273
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &4547498861339352916
 GameObject:
   m_ObjectHideFlags: 0
@@ -530,7 +556,6 @@ GameObject:
   - component: {fileID: 7089721819001764509}
   - component: {fileID: 41483303}
   - component: {fileID: 1847386516}
-  - component: {fileID: 1208500524}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -646,8 +671,8 @@ MonoBehaviour:
   _smooth: 0
   _smoothTime: 5
   _clampPitch: 1
-  _minPitchAngle: -90
-  _maxPitchAngle: 90
+  _minPitchAngle: -45
+  _maxPitchAngle: 45
 --- !u!114 &4506664732293665812
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -866,31 +891,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gems: 0
   totalGems: 0
---- !u!169 &1208500524
-AudioLowPassFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4547779508034552074}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_LowpassResonanceQ: 1
-  lowpassLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0.22727273
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!1 &6463117984112404648
 GameObject:
   m_ObjectHideFlags: 0
