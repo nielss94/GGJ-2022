@@ -36,7 +36,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 3259628072316375548}
+  - {fileID: 6328109944590147559}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4eb6b308e2afcff43bd2040135a7bf78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  catEyesModel: {fileID: 757038542982181953}
+  catEyesModel: {fileID: 8101125303014652506}
   passiveMaterial: {fileID: 2100000, guid: 7f98113118ac2354ead39c8ef1205bae, type: 2}
   activeMaterial: {fileID: 2100000, guid: 14f267bdd896a7c42871be5f5e200ae8, type: 2}
 --- !u!114 &4759548844822801759
@@ -260,15 +260,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba921f4b54ba74a4aa822678d144a1b1, type: 3}
---- !u!137 &757038542982181953 stripped
-SkinnedMeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 936160048733980523, guid: ba921f4b54ba74a4aa822678d144a1b1,
+--- !u!4 &6328109944590147559 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5885523454066781389, guid: ba921f4b54ba74a4aa822678d144a1b1,
     type: 3}
   m_PrefabInstance: {fileID: 467356288876606250}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &3259628072316375548 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3116742075996431062, guid: ba921f4b54ba74a4aa822678d144a1b1,
+--- !u!137 &8101125303014652506 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 8507467487876811120, guid: ba921f4b54ba74a4aa822678d144a1b1,
     type: 3}
   m_PrefabInstance: {fileID: 467356288876606250}
   m_PrefabAsset: {fileID: 0}
