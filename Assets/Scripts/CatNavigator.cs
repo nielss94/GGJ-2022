@@ -19,7 +19,7 @@ public class CatNavigator : MonoBehaviour {
     private Queue<NavTarget> patrolTargetQueue;
     private NavMethod initialNavMethod;
     private Player playerTarget;
-    private GameObject currentTarget;
+    [SerializeField] private GameObject currentTarget;
     private CatAggro catAggro;
 
     private void Awake() {
@@ -73,7 +73,7 @@ public class CatNavigator : MonoBehaviour {
         while (currentNavMethod == NavMethod.Chase) {
             navAgent.SetDestination(playerTarget.transform.position);
             
-            yield return null;
+            yield return new WaitForSeconds(0.2f);
         }
         
         yield return null;
