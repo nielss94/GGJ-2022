@@ -93,12 +93,14 @@
           <e p="AudioClipPlayer.cs" t="Include" />
           <e p="AudioManager.cs" t="Include" />
           <e p="CatAggro.cs" t="Include" />
+          <e p="CatAnimator.cs" t="Include" />
           <e p="CatAudio.cs" t="Include" />
           <e p="CatEyes.cs" t="Include" />
           <e p="CatNavigator.cs" t="Include" />
           <e p="DarthFader.cs" t="Include" />
           <e p="DoorGem.cs" t="Include" />
           <e p="EndDoor.cs" t="Include" />
+          <e p="GameManager.cs" t="Include" />
           <e p="Gem.cs" t="Include" />
           <e p="GemSlot.cs" t="Include" />
           <e p="IPickUp.cs" t="Include" />
@@ -107,6 +109,7 @@
             <e p="HoverSound.cs" t="Include" />
           </e>
           <e p="NavTarget.cs" t="Include" />
+          <e p="NewGame.cs" t="Include" />
           <e p="Player.cs" t="Include" />
           <e p="PlayerInventory.cs" t="Include" />
           <e p="PlayerLamp.cs" t="Include" />

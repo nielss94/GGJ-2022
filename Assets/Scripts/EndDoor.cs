@@ -72,8 +72,7 @@ public class EndDoor : MonoBehaviour, IPickUp
         doorL.DOMove(new Vector3(doorL.position.x, doorL.position.y, doorL.position.z + 1.3f), 1f);
         doorR.DOMove(new Vector3(doorR.position.x, doorR.position.y, doorR.position.z - 1.3f), 1f).OnComplete(() =>
         {
-            FindObjectOfType<DarthFader>().FadeOut();
-            Debug.Log("Start cutscene");
+            FindObjectOfType<DarthFader>().FadeOutAndLoadCutScene();
         });
     }
 

@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public enum RoomEvent
 {
@@ -35,7 +36,9 @@ public class Room : MonoBehaviour
     public Transform spawnPosition;
 
     private AudioManager _audioManager;
-    
+
+    public UnityEvent onToggle;
+
     private void Awake()
     {
         _audioManager = FindObjectOfType<AudioManager>();
@@ -116,6 +119,8 @@ public class Room : MonoBehaviour
                 _audioManager.PlayOneShot(onSpawnAudio, spawnObject.transform.position, 1);
 
             }
+            
+            onToggle?.Invoke();
         }
     }
 
