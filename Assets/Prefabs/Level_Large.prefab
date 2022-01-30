@@ -20594,7 +20594,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &5782354397839157348
 Transform:
@@ -29483,6 +29483,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pillar (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 1473185220189838376, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 2250144548648191634, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
         type: 3}
       propertyPath: m_RootOrder
@@ -30613,6 +30618,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pillar (62)
       objectReference: {fileID: 0}
+    - target: {fileID: 1473185220189838376, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 2250144548648191634, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
         type: 3}
       propertyPath: m_RootOrder
@@ -31422,6 +31432,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pillar (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1473185220189838376, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2250144548648191634, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
         type: 3}
@@ -32543,6 +32558,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pillar (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 1473185220189838376, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 2250144548648191634, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
         type: 3}
       propertyPath: m_RootOrder
@@ -32762,6 +32782,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pillar (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1473185220189838376, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2250144548648191634, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
         type: 3}
@@ -33233,6 +33258,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pillar (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 1473185220189838376, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 2250144548648191634, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
         type: 3}
       propertyPath: m_RootOrder
@@ -33512,6 +33542,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pillar (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1473185220189838376, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2250144548648191634, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
         type: 3}
@@ -34042,6 +34077,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pillar (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1473185220189838376, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2250144548648191634, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
         type: 3}
@@ -35653,6 +35693,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pillar (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 1473185220189838376, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 2250144548648191634, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
         type: 3}
       propertyPath: m_RootOrder
@@ -36992,6 +37037,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pillar (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1473185220189838376, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2250144548648191634, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
         type: 3}
@@ -43043,6 +43093,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pillar (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 1473185220189838376, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 2250144548648191634, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
         type: 3}
       propertyPath: m_RootOrder
@@ -43933,6 +43988,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pillar (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 1473185220189838376, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 2250144548648191634, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
         type: 3}
       propertyPath: m_RootOrder
@@ -44407,6 +44467,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pillar (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1473185220189838376, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2250144548648191634, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
         type: 3}
@@ -46223,6 +46288,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pillar (63)
       objectReference: {fileID: 0}
+    - target: {fileID: 1473185220189838376, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 2250144548648191634, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
         type: 3}
       propertyPath: m_RootOrder
@@ -46633,6 +46703,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pillar (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 1473185220189838376, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 2250144548648191634, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
         type: 3}
       propertyPath: m_RootOrder
@@ -47023,6 +47098,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pillar (56)
       objectReference: {fileID: 0}
+    - target: {fileID: 1473185220189838376, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 2250144548648191634, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
         type: 3}
       propertyPath: m_RootOrder
@@ -47112,6 +47192,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pillar (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1473185220189838376, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2250144548648191634, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
         type: 3}
@@ -49498,6 +49583,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pillar (50)
       objectReference: {fileID: 0}
+    - target: {fileID: 1473185220189838376, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 2250144548648191634, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
         type: 3}
       propertyPath: m_RootOrder
@@ -49798,6 +49888,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pillar (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 1473185220189838376, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 2250144548648191634, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
         type: 3}
       propertyPath: m_RootOrder
@@ -49988,6 +50083,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pillar (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 1473185220189838376, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 2250144548648191634, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
         type: 3}
       propertyPath: m_RootOrder
@@ -50177,6 +50277,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pillar (58)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1473185220189838376, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2250144548648191634, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
         type: 3}
@@ -50658,6 +50763,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pillar (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1473185220189838376, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 2250144548648191634, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
         type: 3}
       propertyPath: m_RootOrder
@@ -50948,6 +51058,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pillar
       objectReference: {fileID: 0}
+    - target: {fileID: 1473185220189838376, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 2250144548648191634, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
         type: 3}
       propertyPath: m_RootOrder
@@ -51037,6 +51152,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pillar (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1473185220189838376, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2250144548648191634, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
         type: 3}
@@ -52002,6 +52122,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pillar (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1473185220189838376, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2250144548648191634, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
         type: 3}
@@ -53357,6 +53482,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pillar (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1473185220189838376, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2250144548648191634, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
         type: 3}
@@ -55273,6 +55403,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pillar (61)
       objectReference: {fileID: 0}
+    - target: {fileID: 1473185220189838376, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 2250144548648191634, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
         type: 3}
       propertyPath: m_RootOrder
@@ -56558,6 +56693,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pillar (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 1473185220189838376, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 2250144548648191634, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
         type: 3}
       propertyPath: m_RootOrder
@@ -57588,6 +57728,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pillar (57)
       objectReference: {fileID: 0}
+    - target: {fileID: 1473185220189838376, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 2250144548648191634, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
         type: 3}
       propertyPath: m_RootOrder
@@ -57877,6 +58022,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pillar (49)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1473185220189838376, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2250144548648191634, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
         type: 3}
@@ -58497,6 +58647,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pillar (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1473185220189838376, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2250144548648191634, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
         type: 3}
@@ -59157,6 +59312,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pillar (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1473185220189838376, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2250144548648191634, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
         type: 3}
@@ -59967,6 +60127,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pillar (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1473185220189838376, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2250144548648191634, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
         type: 3}
@@ -60807,6 +60972,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pillar (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1473185220189838376, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2250144548648191634, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
         type: 3}
@@ -61667,6 +61837,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pillar (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1473185220189838376, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2250144548648191634, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
         type: 3}
@@ -66428,6 +66603,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pillar (60)
       objectReference: {fileID: 0}
+    - target: {fileID: 1473185220189838376, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 2250144548648191634, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
         type: 3}
       propertyPath: m_RootOrder
@@ -66748,6 +66928,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pillar (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 1473185220189838376, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 2250144548648191634, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
         type: 3}
       propertyPath: m_RootOrder
@@ -67017,6 +67202,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pillar (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1473185220189838376, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2250144548648191634, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
         type: 3}
@@ -67647,6 +67837,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pillar (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1473185220189838376, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2250144548648191634, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
         type: 3}
@@ -69858,6 +70053,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pillar (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 1473185220189838376, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 2250144548648191634, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
         type: 3}
       propertyPath: m_RootOrder
@@ -70908,6 +71108,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pillar (54)
       objectReference: {fileID: 0}
+    - target: {fileID: 1473185220189838376, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 2250144548648191634, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
         type: 3}
       propertyPath: m_RootOrder
@@ -71327,6 +71532,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pillar (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1473185220189838376, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2250144548648191634, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
         type: 3}
@@ -71867,6 +72077,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pillar (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1473185220189838376, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2250144548648191634, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
         type: 3}
@@ -72478,6 +72693,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pillar (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1473185220189838376, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 2250144548648191634, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
         type: 3}
       propertyPath: m_RootOrder
@@ -72862,6 +73082,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pillar (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1473185220189838376, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2250144548648191634, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
         type: 3}
@@ -73367,6 +73592,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pillar (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1473185220189838376, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2250144548648191634, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
         type: 3}
@@ -74658,6 +74888,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pillar (55)
       objectReference: {fileID: 0}
+    - target: {fileID: 1473185220189838376, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 2250144548648191634, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
         type: 3}
       propertyPath: m_RootOrder
@@ -74847,6 +75082,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pillar (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1473185220189838376, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2250144548648191634, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
         type: 3}
@@ -75247,6 +75487,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pillar (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1473185220189838376, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2250144548648191634, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
         type: 3}
@@ -80378,6 +80623,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pillar (51)
       objectReference: {fileID: 0}
+    - target: {fileID: 1473185220189838376, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 2250144548648191634, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
         type: 3}
       propertyPath: m_RootOrder
@@ -80467,6 +80717,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pillar (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1473185220189838376, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2250144548648191634, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
         type: 3}
@@ -82123,6 +82378,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pillar (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1473185220189838376, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 2250144548648191634, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
         type: 3}
       propertyPath: m_RootOrder
@@ -82938,6 +83198,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pillar (53)
       objectReference: {fileID: 0}
+    - target: {fileID: 1473185220189838376, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 2250144548648191634, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
         type: 3}
       propertyPath: m_RootOrder
@@ -83127,6 +83392,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pillar (52)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1473185220189838376, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2250144548648191634, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
         type: 3}
@@ -83758,6 +84028,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pillar (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1473185220189838376, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 2250144548648191634, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
         type: 3}
       propertyPath: m_RootOrder
@@ -83847,6 +84122,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pillar (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1473185220189838376, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2250144548648191634, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
         type: 3}
@@ -84047,6 +84327,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pillar (48)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1473185220189838376, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2250144548648191634, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
         type: 3}
@@ -85548,6 +85833,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pillar (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 1473185220189838376, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 2250144548648191634, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
         type: 3}
       propertyPath: m_RootOrder
@@ -86267,6 +86557,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pillar (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1473185220189838376, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2250144548648191634, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
         type: 3}
@@ -88238,6 +88533,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pillar (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 1473185220189838376, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 2250144548648191634, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
         type: 3}
       propertyPath: m_RootOrder
@@ -89577,6 +89877,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pillar (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1473185220189838376, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2250144548648191634, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
         type: 3}
@@ -92213,6 +92518,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pillar (40)
       objectReference: {fileID: 0}
+    - target: {fileID: 1473185220189838376, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 2250144548648191634, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
         type: 3}
       propertyPath: m_RootOrder
@@ -92402,6 +92712,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pillar (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1473185220189838376, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2250144548648191634, guid: 1369dbfdeb519634b972d0ad8c4c9c22,
         type: 3}
