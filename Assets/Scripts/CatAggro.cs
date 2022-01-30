@@ -17,6 +17,7 @@ public class CatAggro : MonoBehaviour {
     
     [SerializeField] private bool isChasing = false;
     [SerializeField] private bool cooldownActive = false;
+    [SerializeField] private float currentChaseEnergy;
     private NavMeshAgent navAgent;
     private float navAgentBaseSpeed;
     private float navAgentBaseAngularSpeed;
@@ -31,13 +32,18 @@ public class CatAggro : MonoBehaviour {
     }
 
     public void StartChasing() {
-        if (!CanChase()) return;
+        if (!CanChase()) {
+            RefreshChaseEnergy();
+            return;
+        } 
+        
         isChasing = true;
         onChaseStarted.Invoke();
         
         navAgent.speed = navAgentBaseSpeed * chaseSpeedMultiplier;
         navAgent.angularSpeed = navAgentBaseAngularSpeed * chaseAngularSpeedMultiplier;
-        
+
+        currentChaseEnergy = chaseEnergySeconds;
         StartCoroutine(ChaseEnergyTimer());
     }
 
@@ -63,8 +69,16 @@ public class CatAggro : MonoBehaviour {
         StartCoroutine(ChaseCooldown());
     }
 
+    private void RefreshChaseEnergy() {
+        currentChaseEnergy = chaseEnergySeconds;
+    }
+
     private IEnumerator ChaseEnergyTimer() {
-        yield return new WaitForSeconds(chaseEnergySeconds);
+        while (currentChaseEnergy > 0) {
+            currentChaseEnergy -= Time.deltaTime;
+            yield return null;
+        }
+        
         StopChasing();
     }
 
