@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Data.Common;
 using UnityEditor.Rendering;
 using UnityEngine;
 using UnityEngine.AI;
@@ -8,6 +9,7 @@ using UnityEngine.AI;
 public class CatAnimator : MonoBehaviour {
     [SerializeField] private float stationaryThresholdSpeed = 0.3f;
     [SerializeField] private float jumpscareOffset = 1.5f;
+    [SerializeField] private GameObject catPrefab;
     
     private Animator animator;
     private NavMeshAgent navAgent;
@@ -46,13 +48,15 @@ public class CatAnimator : MonoBehaviour {
         animator.SetBool("chasing" , false);
     }
 
-    private void TriggerDeath() {
-        catAggro.enabled = false;
+    private void TriggerDeath(GameObject killer) {
+        if (killer.name != this.name) return;
+        
+        GetComponent<CatAggro>().enabled = false;
         GetComponent<CatNavigator>().enabled = false;
-        navAgent.enabled = false;
+        GetComponent<NavMeshAgent>().enabled = false;
         
         // Set cat in front of player
-        transform.position = player.transform.position + Vector3.back * jumpscareOffset;
+        transform.position = player.transform.position + Vector3.left * jumpscareOffset;
 
         // Set jumpscare enabled
         animator.SetTrigger("jumpscare");
