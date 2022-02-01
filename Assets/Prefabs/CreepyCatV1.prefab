@@ -129,9 +129,7 @@ MonoBehaviour:
   chaseCooldownSeconds: 0
   chaseSpeedMultiplier: 5
   chaseAngularSpeedMultiplier: 10
-  shakeDurationSeconds: 1.2
-  source: {fileID: 0}
-  clip: {fileID: 8300000, guid: bcb58fcac5e0ed14094d4b01c76deac7, type: 3}
+  shakeDurationSeconds: 0.8
   isChasing: 0
   isShaking: 0
   cooldownActive: 0
