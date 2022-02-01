@@ -132,39 +132,9 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 155107906419421061, guid: 6bc5da8fd29fdfd4b868f215166c955d,
         type: 3}
-      propertyPath: onToggle.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 155107906419421061, guid: 6bc5da8fd29fdfd4b868f215166c955d,
-        type: 3}
-      propertyPath: onToggle.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 155107906419421061, guid: 6bc5da8fd29fdfd4b868f215166c955d,
-        type: 3}
       propertyPath: onToggle.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1456055682}
-    - target: {fileID: 155107906419421061, guid: 6bc5da8fd29fdfd4b868f215166c955d,
-        type: 3}
-      propertyPath: onToggle.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 155107906419421061, guid: 6bc5da8fd29fdfd4b868f215166c955d,
-        type: 3}
-      propertyPath: onToggle.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SetTutorialDone
-      objectReference: {fileID: 0}
-    - target: {fileID: 155107906419421061, guid: 6bc5da8fd29fdfd4b868f215166c955d,
-        type: 3}
-      propertyPath: onToggle.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: GameManager, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 155107906419421061, guid: 6bc5da8fd29fdfd4b868f215166c955d,
-        type: 3}
-      propertyPath: onToggle.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
     - target: {fileID: 292627874737805048, guid: 6bc5da8fd29fdfd4b868f215166c955d,
         type: 3}
       propertyPath: m_RootOrder
@@ -219,16 +189,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2426415536869720839, guid: 6bc5da8fd29fdfd4b868f215166c955d,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 2426415536869720839, guid: 6bc5da8fd29fdfd4b868f215166c955d,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -12.000001
       objectReference: {fileID: 0}
     - target: {fileID: 5432536158759051532, guid: 6bc5da8fd29fdfd4b868f215166c955d,
         type: 3}
@@ -380,14 +340,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1847386516, guid: a0adab9744a618d4f9b3a6bb6549a7f5, type: 3}
-      propertyPath: gems
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1847386516, guid: a0adab9744a618d4f9b3a6bb6549a7f5, type: 3}
-      propertyPath: totalGems
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4544411343771637754, guid: a0adab9744a618d4f9b3a6bb6549a7f5,
         type: 3}
       propertyPath: m_RootOrder
@@ -1139,11 +1091,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7885361494269597133, guid: cf4e1272caaa0c24fad98a1c64a7bd69,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cf4e1272caaa0c24fad98a1c64a7bd69, type: 3}
 --- !u!1001 &1088865391
@@ -1213,11 +1160,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9107495336012062340, guid: 0866844413af9914d9a04463413eb853,
-        type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: bccec2ec95df33247b6b2386b77c4864, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0866844413af9914d9a04463413eb853, type: 3}
 --- !u!1 &1255051941
