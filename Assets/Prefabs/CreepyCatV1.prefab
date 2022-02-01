@@ -127,9 +127,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   chaseEnergySeconds: 5
   chaseCooldownSeconds: 0
-  chaseSpeedMultiplier: 4
-  chaseAngularSpeedMultiplier: 6
-  shakeDurationSeconds: 1
+  chaseSpeedMultiplier: 5
+  chaseAngularSpeedMultiplier: 10
+  shakeDurationSeconds: 1.2
+  source: {fileID: 0}
+  clip: {fileID: 8300000, guid: bcb58fcac5e0ed14094d4b01c76deac7, type: 3}
   isChasing: 0
   isShaking: 0
   cooldownActive: 0
