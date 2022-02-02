@@ -20,12 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a5fc724-8db1-44c0-80e9-0ddaaabf67a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/DALEK___ SDF.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/DALEK___ SDF.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GGJ2022/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GGJ2022/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GGJ2022/.idea/shelf/Uncommitted_changes_before_Update_at_1_30_2022_4_43_PM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GGJ2022/.idea/shelf/Uncommitted_changes_before_Update_at_1_30_2022_4_43_PM__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GGJ2022/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GGJ2022/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/DALEK___ SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/DALEK___ SDF.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Altar.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Altar.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/EndingScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/EndingScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main01.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main01.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EndDoor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EndDoor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Gem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Gem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IPickUp.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/IPickUp.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerPickUp.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerPickUp.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,51 +71,45 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://C:/dev/GGJ2022/Assets/UI/Logo_Catacomb-SeeNoEvil.png.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/dev/GGJ2022/Assets/Scripts/Gem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/898AF1AF-8CCF-490A-906C-218E1E74B230/91/60f8aa68/Random.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/dev/GGJ2022/UserSettings/EditorUserSettings.asset" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/dev/GGJ2022/Assets/Scenes/Main01.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptedEvents/AudioEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerLampCollider.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CatAggro.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/dev/GGJ2022/Assets/Scenes/Chris/Chris3.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/InteractUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/dev/GGJ2022/Assets/Scripts/PlayerPickUp.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/dev/GGJ2022/Assets/Scripts/PlayerPickUp.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/dev/GGJ2022/Assets/Fonts/DALEK___ SDF.asset" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/897C4228-2E78-4C7F-B2C1-FA92E1FEEF09/38/5d5efd60/Input.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EndDoor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/dev/GGJ2022/Assets/Prefabs/Level_Large.prefab" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NewGame.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerLamp.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/LoadMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerInventory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/dev/GGJ2022/Assets/Scripts/PlayerPickUp.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerPickUp.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu/ClickToStart.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/dev/GGJ2022/Assets/Scripts/PlayerPickUp.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptedEvents/TriggerEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DarthFader.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/dev/GGJ2022/Assets/Prefabs/Altar.prefab" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/dev/GGJ2022/Assets/Prefabs/Level_Large.prefab" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/dev/GGJ2022/Assets/Prefabs/CreepyCatV1.prefab" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/dev/GGJ2022/Assets/Scripts/Gem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/95F13B52-8E48-4EBD-BA8E-37E942F4ABB2/27/b7567323/AudioSource.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/dev/GGJ2022/Assets/Characters/Hand/CH_Hand.fbx.meta" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/dev/GGJ2022/Assets/UI/Logo_Catacomb-SeeNoEvil.png.meta" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/dev/GGJ2022/Assets/UI/Logo_Catacomb-SeeNoEvil.png.meta" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerSteps.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/dev/GGJ2022/Assets/Prefabs/Level_Large.prefab" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/dev/GGJ2022/Assets/Prefabs/Altar.prefab" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/dev/GGJ2022/Assets/Scripts/PlayerPickUp.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/GemUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/dev/GGJ2022/Assets/Scripts/EndDoor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu/HoverSound.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/dev/GGJ2022/UserSettings/EditorUserSettings.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/dev/GGJ2022/Assets/Scripts/PlayerPickUp.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TextAppearAfterSeconds.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptedEvents/SpawnObjEvent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/dev/GGJ2022/Assets/Scenes/EndingScene.unity" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/dev/GGJ2022/Assets/Scenes/Main01.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerStamina.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/dev/GGJ2022/Assets/Prefabs/Player.prefab" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/dev/GGJ2022/ProjectSettings/ProjectSettings.asset" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Easy Character Movement/Scripts/Controllers/BaseCharacterController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/IPickUp.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerLampCollider.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptedEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptedEvents/MoveToObjEvent.cs" />
@@ -127,9 +126,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptedEvents/AudioEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CatAudio.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Gem.cs" />
         <option value="$PROJECT_DIR$/Assets/Easy Character Movement/Scripts/Controllers/BaseFirstPersonController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerPickUp.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerInventory.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AudioManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerSteps.cs" />
@@ -139,10 +136,15 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NewGame.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DarthFader.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/EndDoor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TextAppearAfterSeconds.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerLamp.cs" />
         <option value="$PROJECT_DIR$/Assets/LoadMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/GemUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/IPickUp.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerPickUp.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EndDoor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/InteractUI.cs" />
       </list>
     </option>
   </component>
@@ -197,6 +199,7 @@
       <workItem from="1643410230578" duration="15672000" />
       <workItem from="1643452451699" duration="30659000" />
       <workItem from="1643537122542" duration="6314000" />
+      <workItem from="1643835136830" duration="4395000" />
     </task>
     <task id="LOCAL-00001" summary="more">
       <created>1643419940411</created>
@@ -272,10 +275,14 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="598" y="341" key="MultipleFileMergeDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1643563062226" />
-    <state x="788" y="290" key="RollbackChangesDialog" timestamp="1643563040195">
+    <state x="788" y="265" key="RiderGenerateDialog" timestamp="1643839151514">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="788" y="290" key="RollbackChangesDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1643563040195" />
+    <state x="788" y="265" key="RiderGenerateDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1643839151514" />
+    <state x="788" y="290" key="RollbackChangesDialog" timestamp="1643838826279">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="788" y="290" key="RollbackChangesDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1643838826279" />
     <state x="461" y="224" key="SettingsEditor" timestamp="1643410267284">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
@@ -292,9 +299,9 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="616" y="270" key="run.anything.popup/0.0.1920.1160@0.0.1920.1160" timestamp="1643501382617" />
-    <state x="623" y="255" width="672" height="678" key="search.everywhere.popup" timestamp="1643559462847">
+    <state x="623" y="255" width="672" height="678" key="search.everywhere.popup" timestamp="1643838115615">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="623" y="255" width="672" height="678" key="search.everywhere.popup/0.0.1920.1160@0.0.1920.1160" timestamp="1643559462847" />
+    <state x="623" y="255" width="672" height="678" key="search.everywhere.popup/0.0.1920.1160@0.0.1920.1160" timestamp="1643838115615" />
   </component>
 </project>

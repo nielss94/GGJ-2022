@@ -88,4 +88,23 @@ public class EndDoor : MonoBehaviour, IPickUp
 
         return null;
     }
+
+    public string GetInteractImageString()
+    {
+        var amountOfControllers = Input.GetJoystickNames().Length;
+
+        return amountOfControllers > 0 ? "A" : "F";
+    }
+
+    public bool CanInteract()
+    {
+        return FindObjectOfType<PlayerInventory>().gems > 0;
+    }
+
+    public Sprite InteractSprite { get; set; }
+
+    public string GetInteractString()
+    {
+        return "to place gems";
+    }
 }

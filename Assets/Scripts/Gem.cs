@@ -9,6 +9,7 @@ public class Gem : MonoBehaviour, IPickUp
     public ParticleSystem particleSystem;
     public void PickUp()
     {
+        FindObjectOfType<GemUI>().AddGem();
         FindObjectOfType<AudioManager>().PlayOneShot(pickUpSound, transform.position);
         StartCoroutine(RemoveParticles());
     }
@@ -19,5 +20,24 @@ public class Gem : MonoBehaviour, IPickUp
         emission.enabled = false; 
         yield return new WaitForSeconds(3f);
         Destroy(gameObject);
+    }
+
+    public Sprite InteractSprite { get; set; }
+
+    public string GetInteractString()
+    {
+        return "to pick up gem";
+    }
+
+    public string GetInteractImageString()
+    {
+        var amountOfControllers = Input.GetJoystickNames().Length;
+
+        return amountOfControllers > 0 ? "A" : "F";
+    }
+
+    public bool CanInteract()
+    {
+        return true;
     }
 }

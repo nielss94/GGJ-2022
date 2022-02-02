@@ -5135,6 +5135,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f6edf69867728248a5e4e7424d7b4b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _interactSprite: {fileID: 21300000, guid: 2da4954a5aa6d784ca1d79572264136e, type: 3}
   pickUpSound: {fileID: 8300000, guid: a42f9f48f5cb0974f9a96154a19c5676, type: 3}
   particleSystem: {fileID: 3353325009323818219}
 --- !u!4 &8934975869261319919 stripped

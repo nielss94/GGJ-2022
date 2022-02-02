@@ -9,8 +9,10 @@ public class PlayerPickUp : MonoBehaviour
     public float pickUpDistance;
 
     private PlayerInventory _playerInventory;
+    private InteractUI _interactUI;
     private void Awake()
     {
+        _interactUI = FindObjectOfType<InteractUI>();
         _playerInventory = GetComponent<PlayerInventory>();
     }
 
@@ -18,13 +20,27 @@ public class PlayerPickUp : MonoBehaviour
     {
         if (Vector3.Distance(transform.position, up.transform.position) < pickUpDistance)
         {
+            if (up.TryGetComponent(out IPickUp pickUp))
+            {
+                if (!pickUp.CanInteract()) return;
+
+                string interactString = pickUp.GetInteractString();
+                string interactImageString = pickUp.GetInteractImageString();
+                _interactUI.SetInteractUI(interactImageString, interactString);
+            }
+
             hover = up;
+        }
+        else
+        {
+            _interactUI.Disable();
         }
     }
 
     public void UnHover()
     {
         hover = null;
+        _interactUI.Disable();
     }
 
     private void Update()
@@ -40,6 +56,8 @@ public class PlayerPickUp : MonoBehaviour
                     _playerInventory.gems++;
                     _playerInventory.AddToTotalGems(_playerInventory.gems);
                     hover = null;
+                    _interactUI.Disable();
+
                 }
             }
             else if (hover.TryGetComponent(out EndDoor endDoor))
@@ -49,6 +67,7 @@ public class PlayerPickUp : MonoBehaviour
                     endDoor.PlaceGems(_playerInventory.gems);
                     _playerInventory.gems = 0;
                     hover = null;
+                    _interactUI.Disable();
                 }
             }
             
