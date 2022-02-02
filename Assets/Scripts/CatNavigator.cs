@@ -7,7 +7,8 @@ using UnityEngine.AI;
 public enum NavMethod {
     Stationary,
     Patrol,
-    Chase
+    Chase,
+    Disabled
 }
 
 public class CatNavigator : MonoBehaviour {
@@ -38,6 +39,7 @@ public class CatNavigator : MonoBehaviour {
             this.catAggro = aggro;
             catAggro.onChaseStarted += ActivateChase;
             catAggro.onChaseEnded += EndChase;
+            catAggro.onDetection += DisableNavigation;
         }
         
         NavigateNext();
@@ -83,7 +85,13 @@ public class CatNavigator : MonoBehaviour {
     public void ActivateChase() {
         if (currentNavMethod == NavMethod.Chase) return;
         currentNavMethod = NavMethod.Chase;
+        navAgent.isStopped = false;
         NavigateNext();
+    }
+
+    public void DisableNavigation() {
+        currentNavMethod = NavMethod.Disabled;
+        navAgent.isStopped = true;
     }
 
     private void EndChase() {
