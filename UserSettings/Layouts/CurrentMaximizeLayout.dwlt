@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 77268
+  controlID: 79178
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -142,7 +142,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 77269
+  controlID: 79125
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -167,7 +167,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 77227
+  controlID: 79090
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -228,7 +228,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 383cf8ff6078fafff4e9faff4c8ffbff3e92fbff7493fbff9299fbffe03dfcffb071fcffb871fcfffe90ffffca91ffff1efbffff2af40300
+      m_ExpandedIDs: 5cffcbff56b8ccff383cf8ff6078fafff4e9faff4c8ffbff3e92fbff7493fbff9299fbffe03dfcffb071fcffb871fcfffe90ffffca91ffff1efbffff2af4030038e614005ee6140070e6140090e61400a6e61400
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -540,9 +540,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 119.649994, y: 6.225056, z: 10.345501}
+    m_Target: {x: 287.16977, y: 401.07236, z: 6.2094116}
     speed: 2
-    m_Value: {x: 119.649994, y: 6.225056, z: 10.345501}
+    m_Value: {x: 287.16977, y: 401.07236, z: 6.2094116}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -589,17 +589,17 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.494
   m_Rotation:
-    m_Target: {x: -0.15624842, y: 0.83491063, z: -0.2994624, w: -0.43551582}
+    m_Target: {x: 0, y: 0, z: 0, w: 1}
     speed: 2
-    m_Value: {x: -0.15618275, y: 0.83455974, z: -0.29933655, w: -0.43533278}
+    m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 1.2247449
+    m_Target: 193.42294
     speed: 2
-    m_Value: 1.2247449
+    m_Value: 193.42294
   m_Ortho:
-    m_Target: 0
+    m_Target: 1
     speed: 2
-    m_Value: 0
+    m_Value: 1
   m_CameraSettings:
     m_Speed: 0.9205409
     m_SpeedNormalized: 0.46000046
@@ -795,22 +795,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Audio/Samples/VoiceLines
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Audio/Samples/VoiceLines
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Unity Projects\GGJ2022\GGJ-2022
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 38380500
-    m_LastClickedID: 342072
-    m_ExpandedIDs: 00000000163d01001e3d01003e6e010000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 139}
+    m_SelectedIDs: 383d0100
+    m_LastClickedID: 81208
+    m_ExpandedIDs: 00000000163d010000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
