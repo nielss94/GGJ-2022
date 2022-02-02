@@ -196,7 +196,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 30
+  far clip plane: 50
   field of view: 60
   orthographic: 0
   orthographic size: 5
@@ -904,6 +904,26 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3827440722385712514, guid: dbb95781adb0f81489d34dbf8b1fba76,
+        type: 3}
+      propertyPath: m_AABB.m_Extent.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3827440722385712514, guid: dbb95781adb0f81489d34dbf8b1fba76,
+        type: 3}
+      propertyPath: m_AABB.m_Extent.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3827440722385712514, guid: dbb95781adb0f81489d34dbf8b1fba76,
+        type: 3}
+      propertyPath: m_AABB.m_Extent.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3827440722385712514, guid: dbb95781adb0f81489d34dbf8b1fba76,
+        type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4204189558084770800, guid: dbb95781adb0f81489d34dbf8b1fba76,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -918,6 +938,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 8.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4217148125976877694, guid: dbb95781adb0f81489d34dbf8b1fba76,
+        type: 3}
+      propertyPath: m_AABB.m_Extent.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4217148125976877694, guid: dbb95781adb0f81489d34dbf8b1fba76,
+        type: 3}
+      propertyPath: m_AABB.m_Extent.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4217148125976877694, guid: dbb95781adb0f81489d34dbf8b1fba76,
+        type: 3}
+      propertyPath: m_AABB.m_Extent.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4217148125976877694, guid: dbb95781adb0f81489d34dbf8b1fba76,
+        type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5911240361813211750, guid: dbb95781adb0f81489d34dbf8b1fba76,
         type: 3}
