@@ -29,6 +29,7 @@ public class CatAggro : MonoBehaviour {
         if (TryGetComponent(out NavMeshAgent agent)) {
             navAgent = agent;
         }
+        // Test
 
         navAgentBaseSpeed = navAgent.speed;
         navAgentBaseAngularSpeed = navAgent.angularSpeed;
