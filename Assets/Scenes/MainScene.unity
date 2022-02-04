@@ -5,11 +5,12 @@ OcclusionCullingSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_OcclusionBakeSettings:
-    smallestOccluder: 5
+    smallestOccluder: 2
     smallestHole: 0.25
     backfaceThreshold: 100
-  m_SceneGUID: 00000000000000000000000000000000
-  m_OcclusionCullingData: {fileID: 0}
+  m_SceneGUID: 8124e5870f4fd4c779e7a5f994e84ad1
+  m_OcclusionCullingData: {fileID: 36300000, guid: 0c18acb8b70e6844098ca98becbea184,
+    type: 2}
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
@@ -192,6 +193,75 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6bc5da8fd29fdfd4b868f215166c955d, type: 3}
+--- !u!1001 &8017546
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4129533400609113946, guid: 0e8741981ae25fc498a0aee0b5949075,
+        type: 3}
+      propertyPath: m_Name
+      value: Occlusion_Areas
+      objectReference: {fileID: 0}
+    - target: {fileID: 4129533400609113947, guid: 0e8741981ae25fc498a0aee0b5949075,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4129533400609113947, guid: 0e8741981ae25fc498a0aee0b5949075,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4129533400609113947, guid: 0e8741981ae25fc498a0aee0b5949075,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4129533400609113947, guid: 0e8741981ae25fc498a0aee0b5949075,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4129533400609113947, guid: 0e8741981ae25fc498a0aee0b5949075,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4129533400609113947, guid: 0e8741981ae25fc498a0aee0b5949075,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4129533400609113947, guid: 0e8741981ae25fc498a0aee0b5949075,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4129533400609113947, guid: 0e8741981ae25fc498a0aee0b5949075,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4129533400609113947, guid: 0e8741981ae25fc498a0aee0b5949075,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4129533400609113947, guid: 0e8741981ae25fc498a0aee0b5949075,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4129533400609113947, guid: 0e8741981ae25fc498a0aee0b5949075,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0e8741981ae25fc498a0aee0b5949075, type: 3}
 --- !u!850595691 &300839422
 LightingSettings:
   m_ObjectHideFlags: 0
@@ -629,17 +699,17 @@ PrefabInstance:
     - target: {fileID: 1446615570088082972, guid: 528a495203ecb6041b1c503aecd51563,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.922214
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1446615570088082972, guid: 528a495203ecb6041b1c503aecd51563,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.058632463
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1446615570088082972, guid: 528a495203ecb6041b1c503aecd51563,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 13.14383
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1446615570088082972, guid: 528a495203ecb6041b1c503aecd51563,
         type: 3}

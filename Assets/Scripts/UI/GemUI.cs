@@ -16,6 +16,6 @@ public class GemUI : MonoBehaviour
 
     private void SetGemText()
     {
-        gemText.text = $"{gems.ToString()} / 6 gems";
+        gemText.text = $"{gems.ToString()} / 6";
     }
 }
