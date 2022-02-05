@@ -12,14 +12,9 @@ public class PlayerLampCollider : MonoBehaviour
         _playerPickUp = FindObjectOfType<PlayerPickUp>();
     }
 
-    private void OnTriggerEnter(Collider other)
-    {
-        // if (other.TryGetComponent(out CatNavigator cat)) ... 
-    }
-
     private void OnTriggerStay(Collider other)
     {
-        if (other.TryGetComponent(out IPickUp pickup))
+        if (other && other.TryGetComponent(out IPickUp pickup))
         {
             _playerPickUp.Hover(other.transform);
         }
@@ -27,7 +22,7 @@ public class PlayerLampCollider : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.TryGetComponent(out IPickUp pickup))
+        if (other && other.TryGetComponent(out IPickUp pickup))
         {
             _playerPickUp.UnHover();
         }

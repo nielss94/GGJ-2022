@@ -15,6 +15,6 @@ public class ClickToStart : MonoBehaviour
     private IEnumerator StartGameCoroutine()
     {
         yield return new WaitForSeconds(1f);
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene("Main01");
     }
 }
