@@ -493,13 +493,15 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 858006699}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f09a85f004c87a439a2bcf26ae6d267, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  newGameButton: {fileID: 1378263066}
-  continueButton: {fileID: 1514241870}
+  buttons:
+  - {fileID: 1378263066}
+  - {fileID: 1514241870}
+  - {fileID: 1723405303}
 --- !u!1 &896324785
 GameObject:
   m_ObjectHideFlags: 0
